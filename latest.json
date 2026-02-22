@@ -1,335 +1,107 @@
 {
   "week_start": "2026-02-16",
   "week_end": "2026-02-22",
-  "generated_at": "2026-02-22T12:00:00Z",
+  "generated_at": "2026-02-22T21:00:25+00:00",
   "sources": [
-    "x",
-    "reddit",
     "hn",
-    "producthunt",
     "github"
   ],
   "top_trends": [
     {
-      "topic": "Voice agents that can take real customer calls",
-      "trend_score": 91,
-      "why_now": "Real\u2011time speech + tool use demos went viral; multiple startups shipped call-handling betas.",
-      "implications": [
-        "Tier\u20111 support could shift from chat to phone again (with lower cost).",
-        "UX expectations: instant, natural turn\u2011taking and safe escalation.",
-        "New compliance surface: call recording, consent, PII redaction."
-      ],
+      "topic": "Show (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'show' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
       "evidence": [
         {
-          "source": "x",
-          "title": "Viral demo: realtime voice agent booking appointments",
-          "url": "https://example.com/x1"
+          "source": "hn",
+          "title": "Show HN: Agent Passport \u2013 OAuth-like identity verification for AI agents",
+          "url": "https://news.ycombinator.com/item?id=47096131"
         },
         {
           "source": "hn",
-          "title": "Discussion: building reliable voice agents in production",
-          "url": "https://example.com/hn1"
+          "title": "Show HN: Vestauth \u2013 Auth for Agents",
+          "url": "https://github.com/vestauth/vestauth"
         }
       ]
     },
     {
-      "topic": "AI video creation moving from \u2018generation\u2019 to \u2018editing + control\u2019",
-      "trend_score": 86,
-      "why_now": "Creators are posting workflows where AI is a controllable editor, not a slot machine.",
-      "implications": [
-        "Consumer: shareable outputs drive distribution.",
-        "B2B: marketing teams will expect template + brand controls."
-      ],
+      "topic": "Voice (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'voice' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
       "evidence": [
         {
-          "source": "reddit",
-          "title": "What video tools are actually usable day-to-day?",
-          "url": "https://example.com/r1"
+          "source": "hn",
+          "title": "Mirfield man's tears of joy after lost voicemail of wife retrieved (2015)",
+          "url": "https://www.bbc.co.uk/news/uk-england-leeds-31015325"
         },
         {
-          "source": "producthunt",
-          "title": "Launches: AI video editors with brand kits",
-          "url": "https://example.com/ph1"
+          "source": "hn",
+          "title": "Show HN: Teapot \u2013 A methodology for pen testing voice AI agents",
+          "url": "https://www.redcaller.com/docs/methodologies/teapot-methodology"
         }
       ]
     },
     {
-      "topic": "\u2018Agentic\u2019 analytics: ask \u2192 query \u2192 chart \u2192 narrative",
-      "trend_score": 82,
-      "why_now": "Teams are tired of dashboards; buzz around natural-language analytics with governance and audit trails.",
-      "implications": [
-        "B2B SaaS: AI-assisted insights becomes table stakes.",
-        "Need guardrails: query preview, permissions, and lineage."
-      ],
+      "topic": "Llms (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'llms' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: ask your database questions, get charts back",
-          "url": "https://example.com/hn2"
+          "title": "Show HN: I taught LLMs to play Magic: The Gathering against each other",
+          "url": "https://mage-bench.com/"
         },
         {
-          "source": "github",
-          "title": "Trending repos: semantic layer + NLQ toolkits",
-          "url": "https://example.com/gh1"
+          "source": "hn",
+          "title": "Ask HN: How do you employ LLMs for UI development?",
+          "url": "https://news.ycombinator.com/item?id=47073838"
+        }
+      ]
+    },
+    {
+      "topic": "Rag (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'rag' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Sub-Millisecond RAG on Apple Silicon. No Server. No API. One File",
+          "url": "https://github.com/christopherkarani/Wax"
+        },
+        {
+          "source": "hn",
+          "title": "Trump announces new 10% global tariff after raging over Supreme Court loss",
+          "url": "https://www.cnbc.com/2026/02/20/trump-global-trade-tariff-supreme-court.html"
+        }
+      ]
+    },
+    {
+      "topic": "Why (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'why' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Semantic ablation: Why AI writing is generic and boring",
+          "url": "https://www.theregister.com/2026/02/16/semantic_ablation_ai_writing/"
+        },
+        {
+          "source": "hn",
+          "title": "I guess I kinda get why people hate AI",
+          "url": "https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html"
         }
       ]
     }
   ],
-  "apps": [
-    {
-      "name": "CallPilot AI",
-      "category": "B2B SaaS",
-      "app_buzz_score": 93,
-      "b2b_fit": 77,
-      "consumer_fit": 35,
-      "action": "TRY",
-      "one_liner": "Voice agent that answers inbound support calls and escalates with full transcripts.",
-      "sentiment": {
-        "net": 0.12,
-        "pos": 0.44,
-        "neu": 0.37,
-        "neg": 0.19,
-        "drivers": {
-          "positive": [
-            "Impressive real-time turn-taking",
-            "Fast setup for basic intents",
-            "Clear escalation transcripts"
-          ],
-          "negative": [
-            "Edge-case failures on refunds",
-            "Noisy billing/pricing feedback",
-            "Compliance posture unclear"
-          ]
-        }
-      },
-      "top_evidence": [
-        {
-          "source": "x",
-          "title": "Thread: shipping a voice agent in production (CallPilot)",
-          "url": "https://example.com/x2"
-        },
-        {
-          "source": "hn",
-          "title": "Can voice agents be safe without strict guardrails?",
-          "url": "https://example.com/hn3"
-        }
-      ],
-      "try_plan_30min": [
-        "Replay 10 recorded calls (or scripted calls) and score intent accuracy",
-        "Test escalation to human + transcript quality",
-        "Check admin controls: allowed actions, redaction, retention",
-        "Validate integrations (Helpdesk/CRM) and export formats"
-      ],
-      "watchouts": [
-        "PII retention policy not explicit",
-        "Hallucinated policy claims in edge scenarios"
-      ]
-    },
-    {
-      "name": "InboxSherpa",
-      "category": "B2B SaaS",
-      "app_buzz_score": 86,
-      "b2b_fit": 72,
-      "consumer_fit": 28,
-      "action": "TRY",
-      "one_liner": "AI triage for shared inboxes: auto-labels, drafts, and SLA risk alerts.",
-      "sentiment": {
-        "net": 0.26,
-        "pos": 0.52,
-        "neu": 0.32,
-        "neg": 0.16,
-        "drivers": {
-          "positive": [
-            "Draft quality feels \u2018human\u2019",
-            "Saves time on routing",
-            "Nice analytics on backlog trends"
-          ],
-          "negative": [
-            "Occasional wrong tone",
-            "Limits on custom workflows",
-            "Price scales sharply with seats"
-          ]
-        }
-      },
-      "top_evidence": [
-        {
-          "source": "reddit",
-          "title": "We tried InboxSherpa for support: worth it?",
-          "url": "https://example.com/r2"
-        },
-        {
-          "source": "x",
-          "title": "Clip: inbox triage in 90 seconds",
-          "url": "https://example.com/x3"
-        }
-      ],
-      "try_plan_30min": [
-        "Upload 20 anonymized tickets and compare draft accuracy",
-        "Test routing rules (VIP, churn risk, refunds)",
-        "Measure time-to-first-value and review UX",
-        "Check integration depth with your helpdesk"
-      ],
-      "watchouts": [
-        "Needs human review for billing/refund tickets"
-      ]
-    },
-    {
-      "name": "Storyboard Studio",
-      "category": "Consumer",
-      "app_buzz_score": 90,
-      "b2b_fit": 48,
-      "consumer_fit": 79,
-      "action": "TRY",
-      "one_liner": "Turns prompts into short-form videos with editable scenes and consistent characters.",
-      "sentiment": {
-        "net": 0.05,
-        "pos": 0.41,
-        "neu": 0.35,
-        "neg": 0.24,
-        "drivers": {
-          "positive": [
-            "Wow factor for creators",
-            "Scene-level control",
-            "Good remix/share loop"
-          ],
-          "negative": [
-            "Render times vary",
-            "Artifacts in motion",
-            "Paywall friction"
-          ]
-        }
-      },
-      "top_evidence": [
-        {
-          "source": "x",
-          "title": "Viral: \u2018make a mini ad\u2019 challenge with Storyboard Studio",
-          "url": "https://example.com/x4"
-        },
-        {
-          "source": "producthunt",
-          "title": "Storyboard Studio launched",
-          "url": "https://example.com/ph2"
-        }
-      ],
-      "try_plan_30min": [
-        "Create 3 videos (15\u201330s) with different styles",
-        "Test scene edits: swap shot, fix text, keep character",
-        "Export to TikTok/Reels format and check quality",
-        "Gauge friction: onboarding, paywall, share"
-      ],
-      "watchouts": [
-        "Artifacts in fast motion scenes",
-        "Usage limits trigger quickly"
-      ]
-    },
-    {
-      "name": "PocketTutor",
-      "category": "Consumer",
-      "app_buzz_score": 84,
-      "b2b_fit": 22,
-      "consumer_fit": 71,
-      "action": "MONITOR",
-      "one_liner": "AI tutor with voice + camera that \u2018walks you through\u2019 homework step-by-step.",
-      "sentiment": {
-        "net": 0.18,
-        "pos": 0.49,
-        "neu": 0.33,
-        "neg": 0.18,
-        "drivers": {
-          "positive": [
-            "Helpful explanations",
-            "Voice feels natural",
-            "Kids stay engaged"
-          ],
-          "negative": [
-            "Math mistakes on harder problems",
-            "Parental controls requested",
-            "Subscription complaints"
-          ]
-        }
-      },
-      "top_evidence": [
-        {
-          "source": "reddit",
-          "title": "Is PocketTutor accurate enough for high school math?",
-          "url": "https://example.com/r3"
-        },
-        {
-          "source": "x",
-          "title": "Parents testing AI tutor apps",
-          "url": "https://example.com/x5"
-        }
-      ],
-      "try_plan_30min": [
-        "Test 10 problems across difficulty levels",
-        "Check for hallucinations and correction behavior",
-        "Assess parental controls and safety settings",
-        "Evaluate habit loop: reminders, streaks, goals"
-      ],
-      "watchouts": [
-        "Accuracy cliffs on advanced topics"
-      ]
-    },
-    {
-      "name": "AgentFlow OSS",
-      "category": "B2B SaaS",
-      "app_buzz_score": 79,
-      "b2b_fit": 64,
-      "consumer_fit": 20,
-      "action": "MONITOR",
-      "one_liner": "Open-source agent workflow builder with evaluation harnesses.",
-      "sentiment": {
-        "net": 0.21,
-        "pos": 0.46,
-        "neu": 0.41,
-        "neg": 0.13,
-        "drivers": {
-          "positive": [
-            "Good eval tooling",
-            "Flexible connectors",
-            "Active community"
-          ],
-          "negative": [
-            "Docs are thin",
-            "Steep learning curve",
-            "Breaking changes"
-          ]
-        }
-      },
-      "top_evidence": [
-        {
-          "source": "github",
-          "title": "AgentFlow OSS repo trending",
-          "url": "https://example.com/gh2"
-        },
-        {
-          "source": "hn",
-          "title": "Agent frameworks: what\u2019s actually production-ready?",
-          "url": "https://example.com/hn4"
-        }
-      ],
-      "try_plan_30min": [
-        "Run quickstart locally and build a 2-step agent flow",
-        "Add a simple eval set (10 prompts) and run regression",
-        "Test connector you care about (Slack/Docs/DB)",
-        "Check deployment story and observability"
-      ],
-      "watchouts": [
-        "Breaking changes; pin versions"
-      ]
-    }
-  ],
+  "apps": [],
   "shortlist": {
-    "b2b_try": [
-      "CallPilot AI",
-      "InboxSherpa"
-    ],
-    "consumer_try": [
-      "Storyboard Studio"
-    ],
-    "monitor": [
-      "PocketTutor",
-      "AgentFlow OSS"
-    ]
+    "b2b_try": [],
+    "consumer_try": [],
+    "monitor": []
   }
 }
