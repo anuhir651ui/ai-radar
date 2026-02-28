@@ -3,350 +3,723 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Weekly AI Trends & App Radar</title>
-  <meta name="description" content="Weekly AI trends, most discussed apps/tools, sentiment drivers, and PM action recommendations." />
+  <title>AI Market Research Agent — Weekly Radar</title>
+  <meta name="description" content="Automated weekly AI market research for product managers: trends, apps, sentiment, and action recommendations." />
   <style>
-    :root{
-      --bg:#0b0c10;
-      --panel:#11131a;
-      --panel2:#0e1016;
-      --text:#e6e6e6;
-      --muted:#b8b8b8;
-      --border:#222;
-      --border2:#2a2a2a;
-      --accent:#a8b3ff;
-      --shadow: 0 8px 24px rgba(0,0,0,.22);
-      --try:#2ee86a;
-      --mon:#ffd84a;
-      --ign:#ff5b5b;
+    :root {
+      --bg: #0a0b0f;
+      --surface: #12141c;
+      --surface2: #0e1018;
+      --surface3: #181a24;
+      --text: #e8e8ec;
+      --muted: #8b8fa0;
+      --border: #1e2030;
+      --border2: #282a3a;
+      --accent: #7c8aff;
+      --accent2: #5b6bff;
+      --shadow: 0 8px 32px rgba(0,0,0,.35);
+      --try: #34d97a;
+      --try-bg: rgba(52,217,122,.08);
+      --mon: #ffcc33;
+      --mon-bg: rgba(255,204,51,.08);
+      --ign: #ff5566;
+      --ign-bg: rgba(255,85,102,.06);
+      --radius: 14px;
+      --radius-sm: 10px;
     }
-    [data-theme="light"]{
-      --bg:#f7f7fb;
-      --panel:#ffffff;
-      --panel2:#f3f4f8;
-      --text:#12131a;
-      --muted:#5b5f6b;
-      --border:#e5e7ee;
-      --border2:#d7dae6;
-      --accent:#3949ff;
-      --shadow: 0 10px 24px rgba(0,0,0,.08);
-      --try:#0aa84a;
-      --mon:#b28000;
-      --ign:#d81f1f;
+    [data-theme="light"] {
+      --bg: #f5f6fa;
+      --surface: #ffffff;
+      --surface2: #f0f1f7;
+      --surface3: #e8eaf2;
+      --text: #111320;
+      --muted: #5c6070;
+      --border: #dde0ec;
+      --border2: #c8cce0;
+      --accent: #4050e0;
+      --accent2: #3040cc;
+      --shadow: 0 8px 32px rgba(0,0,0,.06);
+      --try: #0a9e48;
+      --try-bg: rgba(10,158,72,.06);
+      --mon: #b28800;
+      --mon-bg: rgba(178,136,0,.06);
+      --ign: #cc2233;
+      --ign-bg: rgba(204,34,51,.05);
     }
 
-    *{ box-sizing: border-box; }
-    body{
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      margin:0;
-      background:var(--bg);
-      color:var(--text);
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
     }
-    header{
-      padding: 18px 18px 14px;
-      border-bottom: 1px solid var(--border);
+
+    /* Header */
+    header {
       position: sticky;
       top: 0;
-      background: color-mix(in srgb, var(--bg) 92%, transparent);
-      backdrop-filter: blur(10px);
-      z-index: 10;
+      z-index: 50;
+      background: color-mix(in srgb, var(--bg) 88%, transparent);
+      backdrop-filter: blur(16px) saturate(1.2);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 20px;
     }
-    h1{ margin: 0 0 6px 0; font-size: 20px; letter-spacing:.2px;}
-    h2{ margin: 0; font-size: 16px;}
-    h3{ margin: 0; font-size: 13px; color: var(--muted);}
-    .sub{ color: var(--muted); font-size: 13px; }
-    main{ padding: 18px; max-width: 1150px; margin: 0 auto; }
-    .grid{ display:grid; grid-template-columns: 1fr; gap: 14px; }
-    @media (min-width: 920px){ .grid.two{ grid-template-columns: 1fr 1fr; } }
-    .card{
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 14px;
-      box-shadow: var(--shadow);
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
     }
-    .card.soft{ background: var(--panel2); box-shadow:none; }
-    .row{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
-    .row.between{ justify-content: space-between; }
-    .pill{
-      display:inline-flex;
-      align-items:center;
-      gap:6px;
-      padding: 4px 10px;
-      border: 1px solid var(--border2);
-      border-radius: 999px;
+    .brand { display: flex; align-items: center; gap: 10px; }
+    .brand h1 {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -.3px;
+    }
+    .brand .badge {
+      font-size: 10px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: var(--accent);
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+    .meta-line {
       font-size: 12px;
-      color: color-mix(in srgb, var(--text) 80%, var(--muted));
-      background: color-mix(in srgb, var(--panel) 70%, transparent);
-      user-select:none;
+      color: var(--muted);
+      margin-top: 2px;
     }
-    .pill.try{ border-color: color-mix(in srgb, var(--try) 65%, var(--border2)); }
-    .pill.mon{ border-color: color-mix(in srgb, var(--mon) 65%, var(--border2)); }
-    .pill.ign{ border-color: color-mix(in srgb, var(--ign) 65%, var(--border2)); }
-    .score{ font-weight: 800; font-size: 13px; }
-    .btn{
-      cursor:pointer;
-      padding: 8px 10px;
-      border-radius: 12px;
+    .header-actions {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .controls {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    /* Buttons & inputs */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 12px;
+      border-radius: var(--radius-sm);
       border: 1px solid var(--border2);
-      background: var(--panel2);
+      background: var(--surface2);
       color: var(--text);
       font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all .15s;
+      white-space: nowrap;
     }
-    .btn.active{ border-color: color-mix(in srgb, var(--accent) 75%, var(--border2)); }
-    .btn.ghost{ background: transparent; }
-    input, select{
-      padding: 10px 12px;
-      border-radius: 12px;
+    .btn:hover { border-color: var(--accent); }
+    .btn.active {
+      background: color-mix(in srgb, var(--accent) 15%, var(--surface));
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .btn.ghost { background: transparent; }
+    .btn.sm { padding: 5px 9px; font-size: 12px; }
+
+    input[type="text"], select {
+      padding: 8px 12px;
+      border-radius: var(--radius-sm);
       border: 1px solid var(--border2);
-      background: var(--panel2);
+      background: var(--surface2);
       color: var(--text);
       font-size: 13px;
       outline: none;
+      transition: border-color .15s;
     }
-    input{ width: min(560px, 100%); }
-    select{ cursor:pointer; }
-    a{ color: var(--accent); text-decoration:none; }
-    a:hover{ text-decoration: underline; }
-    ul{ margin: 8px 0 0 18px; }
-    li{ margin: 3px 0; }
-    .muted{ color: var(--muted); }
-    .kpi{ display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:8px; margin-top: 10px; }
-    .kpi > div{ border: 1px solid var(--border); border-radius: 12px; padding: 10px; background: var(--panel2); }
-    .kpi label{ display:block; font-size: 11px; color: var(--muted); margin-bottom: 6px; }
-    .kpi strong{ font-size: 16px; }
-    .split{ display:grid; grid-template-columns: 1fr; gap: 12px; }
-    @media (min-width: 920px){ .split{ grid-template-columns: 1.2fr .8fr; } }
-    .hr{ height:1px; background: var(--border); margin: 10px 0; }
-    .small{ font-size:12px; color: var(--muted); }
-    .danger{ color: var(--ign); }
+    input[type="text"]:focus, select:focus { border-color: var(--accent); }
+    input[type="text"] { width: min(400px, 100%); }
+    select { cursor: pointer; }
+
+    /* Layout */
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .grid { display: grid; gap: 16px; }
+    .grid-2 { grid-template-columns: 1fr; }
+    @media (min-width: 960px) { .grid-2 { grid-template-columns: 1fr 1fr; } }
+    .grid-3 { grid-template-columns: 1fr; }
+    @media (min-width: 960px) { .grid-3 { grid-template-columns: 1fr 1fr 1fr; } }
+
+    /* Cards */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      box-shadow: var(--shadow);
+    }
+    .card.flat {
+      background: var(--surface2);
+      box-shadow: none;
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .card-title {
+      font-size: 15px;
+      font-weight: 700;
+    }
+    .section-title {
+      font-size: 17px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    /* Pills */
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 600;
+      border: 1px solid var(--border2);
+      background: var(--surface2);
+      white-space: nowrap;
+    }
+    .pill.try { color: var(--try); border-color: var(--try); background: var(--try-bg); }
+    .pill.mon { color: var(--mon); border-color: var(--mon); background: var(--mon-bg); }
+    .pill.ign { color: var(--ign); border-color: var(--ign); background: var(--ign-bg); }
+    .pill.accent { color: var(--accent); border-color: var(--accent); background: color-mix(in srgb, var(--accent) 8%, transparent); }
+
+    /* Score bar */
+    .score-bar {
+      height: 6px;
+      border-radius: 3px;
+      background: var(--border);
+      overflow: hidden;
+      margin-top: 4px;
+    }
+    .score-bar-fill {
+      height: 100%;
+      border-radius: 3px;
+      transition: width .4s ease;
+    }
+    .score-label {
+      font-size: 11px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2px;
+    }
+
+    /* KPI row */
+    .kpi-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 10px;
+    }
+    .kpi-box {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 12px;
+      text-align: center;
+    }
+    .kpi-box .kpi-label {
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .4px;
+      margin-bottom: 4px;
+    }
+    .kpi-box .kpi-value {
+      font-size: 22px;
+      font-weight: 800;
+    }
+
+    /* Summary banner */
+    .summary-banner {
+      background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 12%, var(--surface)), var(--surface));
+      border: 1px solid color-mix(in srgb, var(--accent) 25%, var(--border));
+      border-radius: var(--radius);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .summary-banner .pick-name {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--accent);
+    }
+    .summary-banner .pick-reason {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    /* Trend card */
+    .trend-card {
+      border-left: 3px solid var(--accent);
+      padding-left: 12px;
+    }
+    .trend-topic {
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .trend-domain {
+      font-size: 11px;
+      color: var(--muted);
+    }
+    .trend-why {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+
+    /* App card */
+    .app-card {
+      transition: border-color .15s;
+    }
+    .app-card:hover {
+      border-color: var(--accent);
+    }
+    .app-name {
+      font-size: 15px;
+      font-weight: 800;
+    }
+    .app-desc {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 4px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .app-meta {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+      align-items: center;
+    }
+    .app-scores {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .app-section-label {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .3px;
+      margin: 12px 0 6px;
+    }
+    .app-drivers {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .driver-col ul {
+      list-style: none;
+      padding: 0;
+    }
+    .driver-col li {
+      font-size: 12px;
+      padding: 3px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .driver-col li:last-child { border-bottom: none; }
+    .driver-pos { color: var(--try); }
+    .driver-neg { color: var(--ign); }
+
+    .evidence-list {
+      list-style: none;
+      padding: 0;
+    }
+    .evidence-list li {
+      font-size: 12px;
+      padding: 4px 0;
+    }
+    .evidence-list a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .evidence-list a:hover { text-decoration: underline; }
+    .evidence-source {
+      font-size: 10px;
+      color: var(--muted);
+      text-transform: uppercase;
+      margin-left: 4px;
+    }
+
+    .plan-list {
+      list-style: none;
+      padding: 0;
+      counter-reset: step;
+    }
+    .plan-list li {
+      font-size: 12px;
+      padding: 4px 0;
+      counter-increment: step;
+      display: flex;
+      gap: 8px;
+    }
+    .plan-list li::before {
+      content: counter(step);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--surface3);
+      border: 1px solid var(--border);
+      font-size: 10px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .watchout-list {
+      list-style: none;
+      padding: 0;
+    }
+    .watchout-list li {
+      font-size: 12px;
+      color: var(--ign);
+      padding: 3px 0;
+    }
+    .watchout-list li::before {
+      content: "!";
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: var(--ign-bg);
+      border: 1px solid var(--ign);
+      font-size: 9px;
+      font-weight: 800;
+      margin-right: 6px;
+    }
+
+    /* Shortlist */
+    .shortlist-section h3 {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .chip-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .chip {
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 500;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 12px 0;
+    }
+
+    /* Loading state */
+    .loading-skeleton {
+      background: linear-gradient(90deg, var(--surface2) 25%, var(--surface3) 50%, var(--surface2) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      border-radius: var(--radius-sm);
+    }
+    @keyframes shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+    .skeleton-line {
+      height: 14px;
+      margin-bottom: 8px;
+      border-radius: 4px;
+    }
+    .skeleton-line:last-child { width: 60%; }
+
+    /* Export modal */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.6);
+      z-index: 100;
+      align-items: center;
+      justify-content: center;
+    }
+    .modal-overlay.open { display: flex; }
+    .modal {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      max-width: 600px;
+      width: 90%;
+      max-height: 80vh;
+      overflow-y: auto;
+    }
+    .modal h2 { font-size: 16px; margin-bottom: 12px; }
+    .modal pre {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 12px;
+      font-size: 12px;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+      max-height: 50vh;
+    }
+    .modal-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 12px;
+      justify-content: flex-end;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      header { padding: 12px 14px; }
+      main { padding: 14px; }
+      .brand h1 { font-size: 15px; }
+      .app-scores { grid-template-columns: 1fr; }
+      .app-drivers { grid-template-columns: 1fr; }
+      .kpi-row { grid-template-columns: repeat(2, 1fr); }
+    }
   </style>
 </head>
 <body>
   <header>
-    <div class="row between">
+    <div class="header-top">
       <div>
-        <h1>Weekly AI Trends & App Radar</h1>
-        <div class="sub" id="meta">Loading…</div>
+        <div class="brand">
+          <h1>AI Market Research Agent</h1>
+          <span class="badge">Weekly Radar</span>
+        </div>
+        <div class="meta-line" id="meta">Loading report data...</div>
       </div>
-      <div class="row">
-        <button class="btn ghost" id="themeBtn" title="Toggle theme">🌓 Theme</button>
-        <a class="btn" id="jsonLink" href="latest.json" target="_blank" rel="noopener">Open JSON</a>
+      <div class="header-actions">
+        <button class="btn ghost sm" id="themeBtn" title="Toggle theme">Theme</button>
+        <button class="btn sm" id="exportMdBtn" title="Export as Markdown">Export</button>
+        <a class="btn sm" id="jsonLink" href="latest.json" target="_blank" rel="noopener">JSON</a>
       </div>
     </div>
 
-    <div class="row" style="margin-top: 12px;">
-      <input id="q" placeholder="Search apps, drivers, keywords…" />
-      <span class="pill" id="counts">—</span>
-    </div>
+    <div class="controls">
+      <input type="text" id="q" placeholder="Search apps, trends, keywords..." />
 
-    <div class="row" style="margin-top: 10px;">
-      <button class="btn active" id="tabAll">All</button>
-      <button class="btn" id="tabB2B">B2B SaaS</button>
-      <button class="btn" id="tabConsumer">Consumer</button>
+      <button class="btn sm active" id="tabAll">All</button>
+      <button class="btn sm" id="tabB2B">B2B SaaS</button>
+      <button class="btn sm" id="tabConsumer">Consumer</button>
 
-      <span class="pill">Action</span>
       <select id="actionSel" aria-label="Action filter">
-        <option value="all">All</option>
+        <option value="all">All Actions</option>
         <option value="TRY">Try</option>
         <option value="MONITOR">Monitor</option>
         <option value="IGNORE">Ignore</option>
       </select>
 
-      <span class="pill">Sort</span>
-      <select id="sortSel" aria-label="Sort">
-        <option value="buzz">Buzz score</option>
-        <option value="fit">PM fit</option>
-        <option value="sent">Sentiment net</option>
+      <select id="sortSel" aria-label="Sort by">
+        <option value="buzz">Sort: Buzz</option>
+        <option value="fit">Sort: PM Fit</option>
+        <option value="stars">Sort: Stars</option>
+        <option value="sent">Sort: Sentiment</option>
       </select>
 
-      <span class="pill">Min buzz</span>
       <select id="minBuzzSel" aria-label="Minimum buzz">
-        <option value="0">0</option>
-        <option value="50">50</option>
-        <option value="70" selected>70</option>
-        <option value="80">80</option>
-        <option value="90">90</option>
+        <option value="0">Min Buzz: 0</option>
+        <option value="50">Min Buzz: 50</option>
+        <option value="70" selected>Min Buzz: 70</option>
+        <option value="80">Min Buzz: 80</option>
+        <option value="90">Min Buzz: 90</option>
       </select>
+
+      <span class="pill" id="counts"></span>
     </div>
   </header>
 
   <main>
-    <div class="grid two">
-      <section class="card">
-        <div class="row between">
-          <h2>Top Trends</h2>
-          <span class="pill" id="trendCount">—</span>
+    <!-- Summary Banner -->
+    <div id="summaryBanner" class="summary-banner" style="display:none;">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;">
+        <div>
+          <div style="font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;">This Week's Top Pick</div>
+          <div class="pick-name" id="topPickName"></div>
+          <div class="pick-reason" id="topPickReason"></div>
         </div>
-        <div id="trends" class="grid" style="margin-top:10px;"></div>
-      </section>
-
-      <section class="card">
-        <div class="row between">
-          <h2>This Week’s Shortlist</h2>
-          <span class="pill">Buzzy-first</span>
-        </div>
-
-        <div class="kpi">
-          <div><label>B2B Try</label><strong id="b2bTryN">—</strong></div>
-          <div><label>Consumer Try</label><strong id="cTryN">—</strong></div>
-          <div><label>Monitor</label><strong id="mTryN">—</strong></div>
-        </div>
-
-        <div class="split" style="margin-top:10px;">
-          <div>
-            <h3>B2B SaaS — Try</h3>
-            <div id="b2bTry" style="margin-top:6px;"></div>
-            <div class="hr"></div>
-            <h3>Consumer — Try</h3>
-            <div id="cTry" style="margin-top:6px;"></div>
-          </div>
-          <div>
-            <h3>Monitor</h3>
-            <div id="monitor" style="margin-top:6px;"></div>
-            <div class="hr"></div>
-            <div class="small">Tip: use Search + Min buzz to skim only the spikiest items.</div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <section class="card" style="margin-top:14px;">
-      <div class="row between">
-        <h2>Most Discussed Apps/Tools</h2>
-        <span class="pill" id="appCount">—</span>
+        <div class="kpi-row" id="summaryKpis" style="flex:1;max-width:500px;"></div>
       </div>
-      <div id="apps" class="grid" style="margin-top:10px;"></div>
-    </section>
-
-    <div class="small" style="margin-top:12px;">
-      Powered by <code>latest.json</code>. Host this folder on GitHub Pages. Replace the JSON weekly.
     </div>
+
+    <!-- Trends + Shortlist -->
+    <div class="grid grid-2" style="margin-bottom:20px;">
+      <section class="card">
+        <div class="card-header">
+          <div class="section-title">Top Trends</div>
+          <span class="pill accent" id="trendCount"></span>
+        </div>
+        <div id="trends" class="grid"></div>
+      </section>
+
+      <section class="card">
+        <div class="card-header">
+          <div class="section-title">Action Shortlist</div>
+          <span class="pill accent">Curated</span>
+        </div>
+
+        <div class="kpi-row" style="margin-bottom:14px;">
+          <div class="kpi-box"><div class="kpi-label">B2B Try</div><div class="kpi-value" id="b2bTryN">—</div></div>
+          <div class="kpi-box"><div class="kpi-label">Consumer Try</div><div class="kpi-value" id="cTryN">—</div></div>
+          <div class="kpi-box"><div class="kpi-label">Monitor</div><div class="kpi-value" id="mTryN">—</div></div>
+        </div>
+
+        <div id="shortlistContent"></div>
+      </section>
+    </div>
+
+    <!-- Apps -->
+    <section class="card">
+      <div class="card-header">
+        <div class="section-title">Apps & Tools Radar</div>
+        <span class="pill accent" id="appCount"></span>
+      </div>
+      <div id="apps" class="grid"></div>
+    </section>
   </main>
+
+  <footer>
+    AI Market Research Agent &middot; Data from Hacker News &amp; GitHub &middot; Auto-generated weekly
+  </footer>
+
+  <!-- Export Modal -->
+  <div class="modal-overlay" id="exportModal">
+    <div class="modal">
+      <h2>Export Weekly Report</h2>
+      <pre id="exportContent"></pre>
+      <div class="modal-actions">
+        <button class="btn sm" id="copyExportBtn">Copy to clipboard</button>
+        <button class="btn sm ghost" id="closeExportBtn">Close</button>
+      </div>
+    </div>
+  </div>
 
   <script>
     const state = { mode: "all", q: "", action: "all", sort: "buzz", minBuzz: 70, report: null, theme: "dark" };
 
-    function escapeHtml(s){
-      return (s||"").toString()
-        .replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;")
-        .replaceAll('"',"&quot;").replaceAll("'","&#039;");
-    }
-    function fmt(n){ return (n===0 || n) ? n : "—"; }
+    const esc = s => (s||"").toString().replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 
-    function actionClass(a){
-      if(a==="TRY") return "try";
-      if(a==="MONITOR") return "mon";
-      if(a==="IGNORE") return "ign";
-      return "";
-    }
-    function actionPill(a){
-      const cls = actionClass(a);
-      return `<span class="pill ${cls}">${escapeHtml(a||"MONITOR")}</span>`;
-    }
-    function normPct(x){
-      if(x==null || isNaN(x)) return "—";
-      const v = Math.max(0, Math.min(1, x));
-      return Math.round(v*100) + "%";
-    }
-    function safeFixed(x){
-      if(x==null || isNaN(x)) return "—";
-      return Number(x).toFixed(2);
+    function actionClass(a) {
+      return a === "TRY" ? "try" : a === "MONITOR" ? "mon" : a === "IGNORE" ? "ign" : "";
     }
 
-    function chipList(names){
-      if(!names || !names.length) return `<span class="muted">None</span>`;
-      return names.map(n => `<span class="pill" style="margin:4px 6px 0 0;">${escapeHtml(n)}</span>`).join("");
+    function scoreColor(v) {
+      if (v >= 80) return "var(--try)";
+      if (v >= 60) return "var(--mon)";
+      return "var(--ign)";
     }
 
-    function renderEvidence(items){
-      if(!items || !items.length) return `<div class="muted">No links</div>`;
-      return `<ul>${
-        items.slice(0,5).map(e => `<li><a href="${e.url}" target="_blank" rel="noopener">${escapeHtml(e.title||e.url)}</a> <span class="muted">(${escapeHtml(e.source||"")})</span></li>`).join("")
-      }</ul>`;
+    function scoreBar(label, value, max = 100) {
+      const pct = Math.min(100, Math.max(0, (value / max) * 100));
+      return `<div>
+        <div class="score-label"><span>${esc(label)}</span><span style="font-weight:700">${value}</span></div>
+        <div class="score-bar"><div class="score-bar-fill" style="width:${pct}%;background:${scoreColor(value)}"></div></div>
+      </div>`;
     }
 
-    function passesMode(app){
-      if(state.mode==="all") return true;
-      const cat = (app.category||"").toLowerCase();
-      if(state.mode==="b2b") return cat.includes("b2b");
-      if(state.mode==="consumer") return cat.includes("consumer");
-      return true;
-    }
+    function renderSummary() {
+      const s = state.report?.summary;
+      const pick = state.report?.shortlist?.top_pick;
+      const banner = document.getElementById("summaryBanner");
 
-    function passesAction(app){
-      if(state.action==="all") return true;
-      return (app.action||"MONITOR") === state.action;
-    }
-
-    function passesQuery(app){
-      const q = state.q.trim().toLowerCase();
-      if(!q) return true;
-      const blob = [
-        app.name, app.one_liner, app.category,
-        ...(app.sentiment?.drivers?.positive||[]),
-        ...(app.sentiment?.drivers?.negative||[]),
-        ...(app.watchouts||[]),
-        ...(app.try_plan_30min||[])
-      ].join(" ").toLowerCase();
-      return blob.includes(q);
-    }
-
-    function passesMinBuzz(app){
-      const b = app.app_buzz_score ?? 0;
-      return b >= state.minBuzz;
-    }
-
-    function sortApps(list){
-      const m = state.mode;
-      const fitField = (m==="consumer") ? "consumer_fit" : (m==="b2b") ? "b2b_fit" : null;
-
-      if(state.sort==="buzz"){
-        return list.sort((a,b)=> (b.app_buzz_score||0) - (a.app_buzz_score||0));
+      if (s) {
+        banner.style.display = "block";
+        document.getElementById("topPickName").textContent = pick ? pick.name : "No top pick this week";
+        document.getElementById("topPickReason").textContent = pick ? (pick.one_liner || pick.reason) : "No apps met the TRY threshold.";
+        document.getElementById("summaryKpis").innerHTML = `
+          <div class="kpi-box"><div class="kpi-label">Apps</div><div class="kpi-value">${s.total_apps_analyzed || 0}</div></div>
+          <div class="kpi-box"><div class="kpi-label">Trends</div><div class="kpi-value">${s.total_trends_identified || 0}</div></div>
+          <div class="kpi-box"><div class="kpi-label">Avg Buzz</div><div class="kpi-value">${s.avg_buzz_score || 0}</div></div>
+        `;
       }
-      if(state.sort==="sent"){
-        return list.sort((a,b)=> (b.sentiment?.net||0) - (a.sentiment?.net||0));
-      }
-      if(state.sort==="fit"){
-        if(fitField){
-          return list.sort((a,b)=> (b[fitField]||0) - (a[fitField]||0));
-        }
-        // All mode: average fit
-        return list.sort((a,b)=> (((b.b2b_fit||0)+(b.consumer_fit||0))/2) - (((a.b2b_fit||0)+(a.consumer_fit||0))/2));
-      }
-      return list;
     }
 
-    function renderTrends(){
+    function renderTrends() {
       const root = document.getElementById("trends");
-      const trends = (state.report?.top_trends || []).slice(0,10);
+      const trends = (state.report?.top_trends || []).slice(0, 10);
       document.getElementById("trendCount").textContent = `${trends.length} trends`;
 
+      if (!trends.length) {
+        root.innerHTML = `<div style="color:var(--muted);font-size:13px;">No trends detected this week.</div>`;
+        return;
+      }
+
       root.innerHTML = trends.map(t => `
-        <div class="card soft">
-          <div class="row between">
-            <div style="font-weight:800;">${escapeHtml(t.topic||"")}</div>
-            <span class="pill">Score <span class="score">${fmt(t.trend_score)}</span></span>
+        <div class="card flat trend-card">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px;">
+            <div>
+              <div class="trend-topic">${esc(t.topic)}</div>
+              <div class="trend-domain">${esc(t.domain || "")}</div>
+            </div>
+            <span class="pill accent" style="flex-shrink:0;">Score <b>${t.trend_score || 0}</b></span>
           </div>
-          <div class="muted" style="margin-top:6px;">${escapeHtml(t.why_now||"")}</div>
-          ${(t.implications && t.implications.length) ? `
+          <div class="trend-why">${esc(t.why_now)}</div>
+          ${(t.implications?.length) ? `
             <div style="margin-top:8px;">
-              <div class="small">Implications</div>
-              <ul>${t.implications.slice(0,3).map(x=>`<li>${escapeHtml(x)}</li>`).join("")}</ul>
-            </div>` : ""
-          }
-          ${(t.evidence && t.evidence.length) ? `
+              <div class="app-section-label">PM Implications</div>
+              <ul style="margin:0;padding-left:18px;font-size:12px;color:var(--muted);">
+                ${t.implications.slice(0, 3).map(x => `<li>${esc(x)}</li>`).join("")}
+              </ul>
+            </div>` : ""}
+          ${(t.evidence?.length) ? `
             <div style="margin-top:8px;">
-              <div class="small">Evidence</div>
-              ${renderEvidence(t.evidence)}
-            </div>` : ""
-          }
+              <div class="app-section-label">Evidence</div>
+              <ul class="evidence-list">
+                ${t.evidence.slice(0, 4).map(e => `<li><a href="${e.url}" target="_blank" rel="noopener">${esc(e.title || e.url)}</a><span class="evidence-source">${esc(e.source)}</span></li>`).join("")}
+              </ul>
+            </div>` : ""}
         </div>
       `).join("");
     }
 
-    function renderShortlist(){
-      const s = state.report?.shortlist || { b2b_try:[], consumer_try:[], monitor:[] };
+    function renderShortlist() {
+      const s = state.report?.shortlist || {};
       const b2b = s.b2b_try || [];
       const con = s.consumer_try || [];
       const mon = s.monitor || [];
@@ -355,90 +728,132 @@
       document.getElementById("cTryN").textContent = con.length;
       document.getElementById("mTryN").textContent = mon.length;
 
-      document.getElementById("b2bTry").innerHTML = chipList(b2b);
-      document.getElementById("cTry").innerHTML = chipList(con);
-      document.getElementById("monitor").innerHTML = chipList(mon);
+      const chipHtml = (items, cls) => items.length
+        ? items.map(n => `<span class="chip">${esc(n)}</span>`).join("")
+        : `<span style="color:var(--muted);font-size:12px;">None this week</span>`;
+
+      document.getElementById("shortlistContent").innerHTML = `
+        <div class="shortlist-section">
+          <h3>B2B SaaS — Try Now</h3>
+          <div class="chip-grid">${chipHtml(b2b)}</div>
+        </div>
+        <div class="divider"></div>
+        <div class="shortlist-section">
+          <h3>Consumer — Try Now</h3>
+          <div class="chip-grid">${chipHtml(con)}</div>
+        </div>
+        <div class="divider"></div>
+        <div class="shortlist-section">
+          <h3>Monitor</h3>
+          <div class="chip-grid">${chipHtml(mon)}</div>
+        </div>
+      `;
     }
 
-    function renderApps(){
+    function filterApps() {
+      const all = state.report?.apps || [];
+      return all.filter(a => {
+        if (state.mode === "b2b" && !(a.category || "").toLowerCase().includes("b2b")) return false;
+        if (state.mode === "consumer" && !(a.category || "").toLowerCase().includes("consumer")) return false;
+        if (state.action !== "all" && (a.action || "MONITOR") !== state.action) return false;
+        if ((a.app_buzz_score || 0) < state.minBuzz) return false;
+        if (state.q.trim()) {
+          const q = state.q.trim().toLowerCase();
+          const blob = [a.name, a.one_liner, a.category, a.domain, a.competitive_note,
+            ...(a.sentiment?.drivers?.positive || []), ...(a.sentiment?.drivers?.negative || []),
+            ...(a.watchouts || []), ...(a.try_plan_30min || [])
+          ].join(" ").toLowerCase();
+          if (!blob.includes(q)) return false;
+        }
+        return true;
+      });
+    }
+
+    function sortApps(list) {
+      const s = state.sort;
+      if (s === "buzz") return list.sort((a, b) => (b.app_buzz_score || 0) - (a.app_buzz_score || 0));
+      if (s === "stars") return list.sort((a, b) => (b.stars || 0) - (a.stars || 0));
+      if (s === "sent") return list.sort((a, b) => (b.sentiment?.net || 0) - (a.sentiment?.net || 0));
+      if (s === "fit") {
+        const field = state.mode === "consumer" ? "consumer_fit" : state.mode === "b2b" ? "b2b_fit" : null;
+        if (field) return list.sort((a, b) => (b[field] || 0) - (a[field] || 0));
+        return list.sort((a, b) => ((b.b2b_fit || 0) + (b.consumer_fit || 0)) - ((a.b2b_fit || 0) + (a.consumer_fit || 0)));
+      }
+      return list;
+    }
+
+    function renderApps() {
       const root = document.getElementById("apps");
-      const all = (state.report?.apps || []);
+      const all = state.report?.apps || [];
+      const filtered = sortApps(filterApps()).slice(0, 40);
 
-      const filtered = all
-        .filter(passesMode)
-        .filter(passesAction)
-        .filter(passesQuery)
-        .filter(passesMinBuzz);
+      document.getElementById("counts").textContent = `${all.length} total`;
+      document.getElementById("appCount").textContent = `${filtered.length} shown`;
 
-      const apps = sortApps(filtered).slice(0, 40);
-
-      document.getElementById("counts").textContent = `${all.length} apps in report`;
-      document.getElementById("appCount").textContent = `${apps.length} shown`;
-
-      if(!apps.length){
-        root.innerHTML = `<div class="muted">No apps match your filters. Try lowering “Min buzz” or switching Action to All.</div>`;
+      if (!filtered.length) {
+        root.innerHTML = `<div style="color:var(--muted);font-size:13px;padding:20px 0;">No apps match your filters. Try lowering Min Buzz or setting Action to All.</div>`;
         return;
       }
 
-      root.innerHTML = apps.map(a => {
+      root.innerHTML = filtered.map(a => {
         const sent = a.sentiment || {};
-        const cat = a.category || "Unknown";
         const action = a.action || "MONITOR";
 
         return `
-          <div class="card soft">
-            <div class="row between">
-              <div>
-                <div class="row">
-                  <div style="font-weight:900; font-size:15px;">${escapeHtml(a.name||"")}</div>
-                  <span class="pill">${escapeHtml(cat)}</span>
-                  ${actionPill(action)}
+          <div class="card flat app-card">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap;">
+              <div style="flex:1;min-width:200px;">
+                <div class="app-name">${esc(a.name)}</div>
+                <div class="app-desc">${esc(a.one_liner)}</div>
+                <div class="app-meta">
+                  <span class="pill ${actionClass(action)}">${esc(action)}</span>
+                  <span class="pill">${esc(a.category || "")}</span>
+                  ${a.domain ? `<span class="pill">${esc(a.domain)}</span>` : ""}
+                  ${a.language ? `<span class="pill">${esc(a.language)}</span>` : ""}
+                  ${a.stars ? `<span class="pill">${Number(a.stars).toLocaleString()} stars</span>` : ""}
                 </div>
-                <div class="muted" style="margin-top:6px;">${escapeHtml(a.one_liner||"")}</div>
-              </div>
-              <div class="row">
-                <span class="pill">Buzz <span class="score">${fmt(a.app_buzz_score)}</span></span>
-                <span class="pill">B2B <span class="score">${fmt(a.b2b_fit)}</span></span>
-                <span class="pill">Cons <span class="score">${fmt(a.consumer_fit)}</span></span>
               </div>
             </div>
 
-            <div class="kpi">
-              <div><label>Sentiment net</label><strong>${safeFixed(sent.net)}</strong></div>
-              <div><label>Positive</label><strong>${normPct(sent.pos)}</strong></div>
-              <div><label>Negative</label><strong>${normPct(sent.neg)}</strong></div>
+            <div class="app-scores">
+              ${scoreBar("Buzz", a.app_buzz_score || 0)}
+              ${scoreBar("B2B Fit", a.b2b_fit || 0)}
+              ${scoreBar("Consumer Fit", a.consumer_fit || 0)}
             </div>
 
-            <div class="split" style="margin-top:10px;">
-              <div>
-                <div class="small">Sentiment drivers</div>
-                <div class="row" style="align-items:flex-start; margin-top:6px;">
-                  <div style="flex:1; min-width: 240px;">
-                    <div style="font-size:12px;">✅ Positive</div>
-                    <ul>${(sent.drivers?.positive||[]).slice(0,3).map(x=>`<li>${escapeHtml(x)}</li>`).join("") || `<li class="muted">None</li>`}</ul>
-                  </div>
-                  <div style="flex:1; min-width: 240px;">
-                    <div style="font-size:12px;">⚠️ Negative</div>
-                    <ul>${(sent.drivers?.negative||[]).slice(0,3).map(x=>`<li>${escapeHtml(x)}</li>`).join("") || `<li class="muted">None</li>`}</ul>
-                  </div>
-                </div>
+            ${a.competitive_note ? `<div style="font-size:12px;color:var(--muted);margin-top:8px;font-style:italic;">${esc(a.competitive_note)}</div>` : ""}
 
-                ${(a.watchouts && a.watchouts.length) ? `
-                  <div style="margin-top:10px;">
-                    <div class="small">Watchouts</div>
-                    <ul>${a.watchouts.slice(0,3).map(x=>`<li class="danger">${escapeHtml(x)}</li>`).join("")}</ul>
-                  </div>` : ""
-                }
+            <div class="app-section-label">Sentiment</div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+              <span class="pill" style="font-weight:700;${sent.net > 0 ? 'color:var(--try)' : sent.net < 0 ? 'color:var(--ign)' : ''}">Net: ${sent.net != null ? sent.net.toFixed(2) : "—"}</span>
+              <span class="pill">Pos: ${sent.pos != null ? Math.round(sent.pos * 100) + "%" : "—"}</span>
+              <span class="pill">Neg: ${sent.neg != null ? Math.round(sent.neg * 100) + "%" : "—"}</span>
+            </div>
+
+            <div class="app-drivers">
+              <div class="driver-col">
+                <div class="app-section-label">Positive Drivers</div>
+                <ul>${(sent.drivers?.positive || []).slice(0, 4).map(x => `<li class="driver-pos">${esc(x)}</li>`).join("") || `<li style="color:var(--muted)">None</li>`}</ul>
               </div>
+              <div class="driver-col">
+                <div class="app-section-label">Negative Drivers</div>
+                <ul>${(sent.drivers?.negative || []).slice(0, 4).map(x => `<li class="driver-neg">${esc(x)}</li>`).join("") || `<li style="color:var(--muted)">None</li>`}</ul>
+              </div>
+            </div>
 
+            ${(a.watchouts?.length) ? `
+              <div class="app-section-label">Watchouts</div>
+              <ul class="watchout-list">${a.watchouts.slice(0, 4).map(w => `<li>${esc(w)}</li>`).join("")}</ul>
+            ` : ""}
+
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:4px;">
               <div>
-                <div class="small">Try plan (30 min)</div>
-                <ul>${(a.try_plan_30min||[]).slice(0,4).map(x=>`<li>${escapeHtml(x)}</li>`).join("") || `<li class="muted">Add a try plan</li>`}</ul>
-
-                <div style="margin-top:10px;">
-                  <div class="small">Evidence</div>
-                  ${renderEvidence(a.top_evidence)}
-                </div>
+                <div class="app-section-label">30-Min Try Plan</div>
+                <ul class="plan-list">${(a.try_plan_30min || []).slice(0, 4).map(s => `<li><span>${esc(s)}</span></li>`).join("")}</ul>
+              </div>
+              <div>
+                <div class="app-section-label">Evidence</div>
+                <ul class="evidence-list">${(a.top_evidence || []).slice(0, 5).map(e => `<li><a href="${e.url}" target="_blank" rel="noopener">${esc(e.title || e.url)}</a><span class="evidence-source">${esc(e.source)}</span></li>`).join("")}</ul>
               </div>
             </div>
           </div>
@@ -446,31 +861,92 @@
       }).join("");
     }
 
-    function setMode(mode){
+    function setMode(mode) {
       state.mode = mode;
-      document.getElementById("tabAll").classList.toggle("active", mode==="all");
-      document.getElementById("tabB2B").classList.toggle("active", mode==="b2b");
-      document.getElementById("tabConsumer").classList.toggle("active", mode==="consumer");
+      document.getElementById("tabAll").classList.toggle("active", mode === "all");
+      document.getElementById("tabB2B").classList.toggle("active", mode === "b2b");
+      document.getElementById("tabConsumer").classList.toggle("active", mode === "consumer");
       renderApps();
     }
 
-    function applyTheme(theme){
+    function applyTheme(theme) {
       state.theme = theme;
       document.documentElement.setAttribute("data-theme", theme);
       localStorage.setItem("aiRadarTheme", theme);
     }
-    function toggleTheme(){
-      applyTheme(state.theme === "dark" ? "light" : "dark");
+
+    function generateMarkdownExport() {
+      const r = state.report;
+      if (!r) return "No report loaded.";
+
+      let md = `# AI Market Research — Weekly Radar\n`;
+      md += `**Week:** ${r.week_start} → ${r.week_end}  \n`;
+      md += `**Generated:** ${r.generated_at}  \n`;
+      md += `**Sources:** ${(r.sources || []).join(", ")}\n\n`;
+
+      if (r.summary) {
+        md += `## Summary\n`;
+        md += `- **Apps analyzed:** ${r.summary.total_apps_analyzed}\n`;
+        md += `- **Trends identified:** ${r.summary.total_trends_identified}\n`;
+        md += `- **Average buzz:** ${r.summary.avg_buzz_score}\n`;
+        const ab = r.summary.action_breakdown || {};
+        md += `- **Actions:** TRY: ${ab.TRY || 0}, MONITOR: ${ab.MONITOR || 0}, IGNORE: ${ab.IGNORE || 0}\n\n`;
+      }
+
+      if (r.shortlist?.top_pick) {
+        md += `### Top Pick: ${r.shortlist.top_pick.name}\n`;
+        md += `> ${r.shortlist.top_pick.one_liner || r.shortlist.top_pick.reason}\n\n`;
+      }
+
+      md += `## Top Trends\n\n`;
+      (r.top_trends || []).forEach((t, i) => {
+        md += `### ${i + 1}. ${t.topic} (Score: ${t.trend_score})\n`;
+        md += `${t.why_now}\n`;
+        if (t.implications?.length) {
+          md += `**Implications:**\n`;
+          t.implications.forEach(x => md += `- ${x}\n`);
+        }
+        md += `\n`;
+      });
+
+      md += `## Shortlist\n\n`;
+      md += `**B2B Try:** ${(r.shortlist?.b2b_try || []).join(", ") || "None"}\n`;
+      md += `**Consumer Try:** ${(r.shortlist?.consumer_try || []).join(", ") || "None"}\n`;
+      md += `**Monitor:** ${(r.shortlist?.monitor || []).join(", ") || "None"}\n\n`;
+
+      md += `## Apps & Tools Detail\n\n`;
+      const apps = sortApps(filterApps()).slice(0, 20);
+      apps.forEach(a => {
+        md += `### ${a.name} — ${a.action}\n`;
+        md += `> ${a.one_liner}\n\n`;
+        md += `| Metric | Value |\n|--------|-------|\n`;
+        md += `| Category | ${a.category} |\n`;
+        md += `| Domain | ${a.domain || "—"} |\n`;
+        md += `| Buzz | ${a.app_buzz_score} |\n`;
+        md += `| B2B Fit | ${a.b2b_fit} |\n`;
+        md += `| Consumer Fit | ${a.consumer_fit} |\n`;
+        md += `| Stars | ${(a.stars || 0).toLocaleString()} |\n`;
+        md += `| Sentiment | ${a.sentiment?.net?.toFixed(2) || "—"} |\n\n`;
+        if (a.watchouts?.length) {
+          md += `**Watchouts:** ${a.watchouts.join("; ")}\n\n`;
+        }
+        if (a.competitive_note) {
+          md += `**Competitive:** ${a.competitive_note}\n\n`;
+        }
+      });
+
+      return md;
     }
 
-    async function loadReport(){
+    async function loadReport() {
       const res = await fetch("latest.json", { cache: "no-store" });
-      const report = await res.json();
-      state.report = report;
+      state.report = await res.json();
+      const r = state.report;
 
-      const meta = document.getElementById("meta");
-      meta.textContent = `Week ${report.week_start} → ${report.week_end} • Sources: ${(report.sources||[]).join(", ")} • Generated: ${report.generated_at}`;
+      document.getElementById("meta").textContent =
+        `Week ${r.week_start} → ${r.week_end} · Sources: ${(r.sources || []).join(", ")} · Generated: ${r.generated_at}`;
 
+      renderSummary();
       renderTrends();
       renderShortlist();
       renderApps();
@@ -480,20 +956,36 @@
     document.getElementById("tabAll").onclick = () => setMode("all");
     document.getElementById("tabB2B").onclick = () => setMode("b2b");
     document.getElementById("tabConsumer").onclick = () => setMode("consumer");
+    document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; renderApps(); });
+    document.getElementById("actionSel").addEventListener("change", e => { state.action = e.target.value; renderApps(); });
+    document.getElementById("sortSel").addEventListener("change", e => { state.sort = e.target.value; renderApps(); });
+    document.getElementById("minBuzzSel").addEventListener("change", e => { state.minBuzz = parseInt(e.target.value, 10) || 0; renderApps(); });
+    document.getElementById("themeBtn").onclick = () => applyTheme(state.theme === "dark" ? "light" : "dark");
 
-    document.getElementById("q").addEventListener("input", (e) => { state.q = e.target.value; renderApps(); });
-    document.getElementById("actionSel").addEventListener("change", (e) => { state.action = e.target.value; renderApps(); });
-    document.getElementById("sortSel").addEventListener("change", (e) => { state.sort = e.target.value; renderApps(); });
-    document.getElementById("minBuzzSel").addEventListener("change", (e) => { state.minBuzz = parseInt(e.target.value, 10) || 0; renderApps(); });
+    document.getElementById("exportMdBtn").onclick = () => {
+      document.getElementById("exportContent").textContent = generateMarkdownExport();
+      document.getElementById("exportModal").classList.add("open");
+    };
+    document.getElementById("closeExportBtn").onclick = () => {
+      document.getElementById("exportModal").classList.remove("open");
+    };
+    document.getElementById("copyExportBtn").onclick = () => {
+      const text = document.getElementById("exportContent").textContent;
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById("copyExportBtn");
+        btn.textContent = "Copied!";
+        setTimeout(() => btn.textContent = "Copy to clipboard", 2000);
+      });
+    };
+    document.getElementById("exportModal").onclick = e => {
+      if (e.target === e.currentTarget) e.currentTarget.classList.remove("open");
+    };
 
-    document.getElementById("themeBtn").onclick = toggleTheme;
-
-    // Init theme from storage
-    const savedTheme = localStorage.getItem("aiRadarTheme");
-    applyTheme(savedTheme || "dark");
+    // Init theme
+    applyTheme(localStorage.getItem("aiRadarTheme") || "dark");
 
     loadReport().catch(err => {
-      document.getElementById("meta").textContent = "Failed to load latest.json. Open console for details.";
+      document.getElementById("meta").textContent = "Failed to load latest.json — check console.";
       console.error(err);
     });
   </script>
