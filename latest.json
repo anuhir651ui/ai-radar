@@ -1,107 +1,1630 @@
 {
-  "week_start": "2026-02-16",
-  "week_end": "2026-02-22",
-  "generated_at": "2026-02-22T21:00:25+00:00",
+  "week_start": "2026-02-22",
+  "week_end": "2026-02-28",
+  "generated_at": "2026-02-28T16:28:48+00:00",
   "sources": [
     "hn",
     "github"
   ],
+  "summary": {
+    "total_apps_analyzed": 30,
+    "total_trends_identified": 8,
+    "avg_buzz_score": 92.2,
+    "action_breakdown": {
+      "MONITOR": 27,
+      "TRY": 3
+    },
+    "category_breakdown": {
+      "B2B SaaS": 25,
+      "Consumer": 5
+    },
+    "domain_breakdown": {
+      "AI Agents": 16,
+      "AI Coding": 8,
+      "LLM Infrastructure": 2,
+      "Data & Analytics": 1,
+      "Voice & Audio": 1
+    },
+    "top_pick": {
+      "name": "op7418/CodePilot",
+      "buzz": 98,
+      "one_liner": "A desktop GUI for Claude Code \u2014 chat, code, and manage projects visually. Built with Electron + Next.js.",
+      "reason": "Highest buzz score (98) among TRY-rated apps this week."
+    }
+  },
   "top_trends": [
     {
-      "topic": "Show (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'show' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
+      "topic": "Open Source",
+      "domain": "General AI",
+      "trend_score": 98,
+      "why_now": "'open-source' appeared 88+ times across Hacker News discussions and trending GitHub repos this week.",
+      "implications": [
+        "Growing interest in general ai suggests new product opportunities.",
+        "Monitor this space for potential integration or partnership opportunities.",
+        "Early movers in this category may establish defensible positions."
+      ],
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Agent Passport \u2013 OAuth-like identity verification for AI agents",
-          "url": "https://news.ycombinator.com/item?id=47096131"
+          "title": "Show HN: ZSE \u2013 Open-source LLM inference engine with 3.9s cold starts",
+          "url": "https://github.com/Zyora-Dev/zse"
         },
         {
           "source": "hn",
-          "title": "Show HN: Vestauth \u2013 Auth for Agents",
-          "url": "https://github.com/vestauth/vestauth"
+          "title": "Show HN: Mission Control \u2013 Open-source task management for AI agents",
+          "url": "https://github.com/MeisnerDan/mission-control"
+        },
+        {
+          "source": "github",
+          "title": "jamiepine/voicebox",
+          "url": "https://github.com/jamiepine/voicebox"
+        },
+        {
+          "source": "github",
+          "title": "volcengine/OpenViking",
+          "url": "https://github.com/volcengine/OpenViking"
         }
       ]
     },
     {
-      "topic": "Voice (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'voice' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
+      "topic": "Llms",
+      "domain": "LLM Infrastructure",
+      "trend_score": 98,
+      "why_now": "Multiple sources (4 pieces of evidence) reference 'llms', signaling growing builder and community interest.",
+      "implications": [
+        "Inference costs continue to drop \u2014 revisit pricing models for AI features.",
+        "Self-hosted LLM options expand, relevant for data-sensitive use cases.",
+        "Fine-tuning workflows are becoming more accessible to product teams."
+      ],
       "evidence": [
         {
           "source": "hn",
-          "title": "Mirfield man's tears of joy after lost voicemail of wife retrieved (2015)",
-          "url": "https://www.bbc.co.uk/news/uk-england-leeds-31015325"
+          "title": "Large-Scale Online Deanonymization with LLMs",
+          "url": "https://simonlermen.substack.com/p/large-scale-online-deanonymization"
         },
         {
           "source": "hn",
-          "title": "Show HN: Teapot \u2013 A methodology for pen testing voice AI agents",
-          "url": "https://www.redcaller.com/docs/methodologies/teapot-methodology"
+          "title": "Show HN: AI Timeline \u2013 171 LLMs from Transformer (2017) to GPT-5.3 (2026)",
+          "url": "https://llm-timeline.com/"
+        },
+        {
+          "source": "github",
+          "title": "google/langextract",
+          "url": "https://github.com/google/langextract"
+        },
+        {
+          "source": "github",
+          "title": "upstash/context7",
+          "url": "https://github.com/upstash/context7"
         }
       ]
     },
     {
-      "topic": "Llms (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'llms' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
+      "topic": "Cli",
+      "domain": "General AI",
+      "trend_score": 98,
+      "why_now": "Multiple sources (4 pieces of evidence) reference 'cli', signaling growing builder and community interest.",
+      "implications": [
+        "Growing interest in general ai suggests new product opportunities.",
+        "Monitor this space for potential integration or partnership opportunities.",
+        "Early movers in this category may establish defensible positions."
+      ],
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: I taught LLMs to play Magic: The Gathering against each other",
-          "url": "https://mage-bench.com/"
+          "title": "Making MCP cheaper via CLI",
+          "url": "https://kanyilmaz.me/2026/02/23/cli-vs-mcp.html"
         },
         {
           "source": "hn",
-          "title": "Ask HN: How do you employ LLMs for UI development?",
-          "url": "https://news.ycombinator.com/item?id=47073838"
+          "title": "Aqua: A CLI message tool for AI agents",
+          "url": "https://github.com/quailyquaily/aqua"
+        },
+        {
+          "source": "github",
+          "title": "steipete/summarize",
+          "url": "https://github.com/steipete/summarize"
+        },
+        {
+          "source": "github",
+          "title": "entireio/cli",
+          "url": "https://github.com/entireio/cli"
         }
       ]
     },
     {
-      "topic": "Rag (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'rag' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
+      "topic": "Openclaw",
+      "domain": "General AI",
+      "trend_score": 98,
+      "why_now": "'openclaw' appeared 63+ times across Hacker News discussions and trending GitHub repos this week.",
+      "implications": [
+        "Growing interest in general ai suggests new product opportunities.",
+        "Monitor this space for potential integration or partnership opportunities.",
+        "Early movers in this category may establish defensible positions."
+      ],
       "evidence": [
         {
           "source": "hn",
-          "title": "Sub-Millisecond RAG on Apple Silicon. No Server. No API. One File",
-          "url": "https://github.com/christopherkarani/Wax"
+          "title": "Show HN: Librarian \u2013 Cut token costs by up to 85% for LangGraph and OpenClaw",
+          "url": "https://uselibrarian.dev/"
         },
         {
           "source": "hn",
-          "title": "Trump announces new 10% global tariff after raging over Supreme Court loss",
-          "url": "https://www.cnbc.com/2026/02/20/trump-global-trade-tariff-supreme-court.html"
+          "title": "Show HN: Oh-My-OpenClaw \u2013 agent orchestration for coding, from Discord/Telegram",
+          "url": "https://github.com/happycastle114/oh-my-openclaw"
+        },
+        {
+          "source": "github",
+          "title": "BlockRunAI/ClawRouter",
+          "url": "https://github.com/BlockRunAI/ClawRouter"
+        },
+        {
+          "source": "github",
+          "title": "memovai/mimiclaw",
+          "url": "https://github.com/memovai/mimiclaw"
         }
       ]
     },
     {
-      "topic": "Why (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'why' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
+      "topic": "Voice",
+      "domain": "Voice & Audio",
+      "trend_score": 98,
+      "why_now": "Spike in mentions of 'voice' across developer communities, with active GitHub projects gaining traction.",
+      "implications": [
+        "Real-time voice AI opens new interaction paradigms beyond text chat.",
+        "Voice agent quality is approaching human parity in specific domains.",
+        "Consider voice as an input modality for your product's AI features."
+      ],
       "evidence": [
         {
           "source": "hn",
-          "title": "Semantic ablation: Why AI writing is generic and boring",
-          "url": "https://www.theregister.com/2026/02/16/semantic_ablation_ai_writing/"
+          "title": "Show HN: Off Grid: On-device AI-web browsing, tools vision,image,voice\u20133x faster",
+          "url": "https://news.ycombinator.com/item?id=47142003"
         },
         {
           "source": "hn",
-          "title": "I guess I kinda get why people hate AI",
-          "url": "https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html"
+          "title": "Washington state hotline callers hear AI voice with Spanish accent \u2013 AP News",
+          "url": "https://apnews.com/article/washington-dol-spanish-accent-ai-3a1b8438a5674c07242a8d48c057d5a3"
+        },
+        {
+          "source": "github",
+          "title": "jamiepine/voicebox",
+          "url": "https://github.com/jamiepine/voicebox"
+        },
+        {
+          "source": "github",
+          "title": "PeonPing/peon-ping",
+          "url": "https://github.com/PeonPing/peon-ping"
+        }
+      ]
+    },
+    {
+      "topic": "Tool",
+      "domain": "General AI",
+      "trend_score": 98,
+      "why_now": "Spike in mentions of 'tool' across developer communities, with active GitHub projects gaining traction.",
+      "implications": [
+        "Growing interest in general ai suggests new product opportunities.",
+        "Monitor this space for potential integration or partnership opportunities.",
+        "Early movers in this category may establish defensible positions."
+      ],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Making Wolfram tech available as a foundation tool for LLM systems",
+          "url": "https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/"
+        },
+        {
+          "source": "hn",
+          "title": "Aqua: A CLI message tool for AI agents",
+          "url": "https://github.com/quailyquaily/aqua"
+        },
+        {
+          "source": "github",
+          "title": "benjitaylor/agentation",
+          "url": "https://github.com/benjitaylor/agentation"
+        },
+        {
+          "source": "github",
+          "title": "hellodigua/ChatLab",
+          "url": "https://github.com/hellodigua/ChatLab"
+        }
+      ]
+    },
+    {
+      "topic": "Claude Code",
+      "domain": "AI Coding",
+      "trend_score": 98,
+      "why_now": "'claude code' appeared 49+ times across Hacker News discussions and trending GitHub repos this week.",
+      "implications": [
+        "AI-assisted development tools accelerate feature velocity \u2014 measure impact on your team.",
+        "Code review and testing automation are emerging use cases.",
+        "Developer experience is becoming a key differentiator in AI coding tools."
+      ],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Show HN: Context Mode \u2013 315 KB of MCP output becomes 5.4 KB in Claude Code",
+          "url": "https://github.com/mksglu/claude-context-mode"
+        },
+        {
+          "source": "hn",
+          "title": "Stop Burning Your Context Window \u2013 How We Cut MCP Output by 98% in Claude Code",
+          "url": "https://mksg.lu/blog/context-mode"
+        },
+        {
+          "source": "github",
+          "title": "PeonPing/peon-ping",
+          "url": "https://github.com/PeonPing/peon-ping"
+        },
+        {
+          "source": "github",
+          "title": "op7418/CodePilot",
+          "url": "https://github.com/op7418/CodePilot"
+        }
+      ]
+    },
+    {
+      "topic": "Framework",
+      "domain": "General AI",
+      "trend_score": 98,
+      "why_now": "Spike in mentions of 'framework' across developer communities, with active GitHub projects gaining traction.",
+      "implications": [
+        "Growing interest in general ai suggests new product opportunities.",
+        "Monitor this space for potential integration or partnership opportunities.",
+        "Early movers in this category may establish defensible positions."
+      ],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Show HN: Declarative open-source framework for MCPs with search and execute",
+          "url": "https://hyperterse.com"
+        },
+        {
+          "source": "hn",
+          "title": "Show HN: acorn \u2013 LLM framework for long running agents",
+          "url": "https://github.com/askmanu/acorn"
+        },
+        {
+          "source": "github",
+          "title": "BIT-DataLab/Edit-Banana",
+          "url": "https://github.com/BIT-DataLab/Edit-Banana"
+        },
+        {
+          "source": "github",
+          "title": "SynkraAI/aios-core",
+          "url": "https://github.com/SynkraAI/aios-core"
         }
       ]
     }
   ],
-  "apps": [],
+  "apps": [
+    {
+      "name": "code-yeongyu/oh-my-opencode",
+      "category": "B2B SaaS",
+      "domain": "AI Coding",
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "stars": 35507,
+      "forks": 2681,
+      "age_days": 87,
+      "app_buzz_score": 92,
+      "b2b_fit": 58,
+      "consumer_fit": 32,
+      "action": "MONITOR",
+      "one_liner": "the best agent harness",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Established player with strong community traction.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "code-yeongyu/oh-my-opencode",
+          "url": "https://github.com/code-yeongyu/oh-my-opencode"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "No clear license \u2014 verify legal compatibility before integrating.",
+        "Minimal description/documentation \u2014 evaluate quickly and move on if unclear."
+      ]
+    },
+    {
+      "name": "koala73/worldmonitor",
+      "category": "B2B SaaS",
+      "domain": "Data & Analytics",
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "stars": 17423,
+      "forks": 2812,
+      "age_days": 50,
+      "app_buzz_score": 91,
+      "b2b_fit": 58,
+      "consumer_fit": 32,
+      "action": "MONITOR",
+      "one_liner": "Real-time global intelligence dashboard \u2014 AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Established player with strong community traction.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "koala73/worldmonitor",
+          "url": "https://github.com/koala73/worldmonitor"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Launch the demo/hosted version and explore the UI (10 min)",
+        "Test with your own data or a representative sample (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "No clear license \u2014 verify legal compatibility before integrating."
+      ]
+    },
+    {
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "category": "B2B SaaS",
+      "domain": "AI Agents",
+      "language": "Python",
+      "license": "MIT",
+      "stars": 14577,
+      "forks": 15409,
+      "age_days": 49,
+      "app_buzz_score": 90,
+      "b2b_fit": 58,
+      "consumer_fit": 32,
+      "action": "MONITOR",
+      "one_liner": "LLM\u9a71\u52a8\u7684 A/H/\u7f8e\u80a1\u667a\u80fd\u5206\u6790\u5668\uff0c\u591a\u6570\u636e\u6e90\u884c\u60c5 + \u5b9e\u65f6\u65b0\u95fb + Gemini \u51b3\u7b56\u4eea\u8868\u76d8 + \u591a\u6e20\u9053\u63a8\u9001\uff0c\u96f6\u6210\u672c\uff0c\u7eaf\u767d\u5ad6\uff0c\u5b9a\u65f6\u8fd0\u884c",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Established player with strong community traction.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "ZhuLinsen/daily_stock_analysis",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": []
+    },
+    {
+      "name": "jamiepine/voicebox",
+      "category": "B2B SaaS",
+      "domain": "Voice & Audio",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars": 11578,
+      "forks": 1292,
+      "age_days": 34,
+      "app_buzz_score": 90,
+      "b2b_fit": 58,
+      "consumer_fit": 32,
+      "action": "MONITOR",
+      "one_liner": "The open-source voice synthesis studio powered by Qwen3-TTS.",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Established player with strong community traction.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "jamiepine/voicebox",
+          "url": "https://github.com/jamiepine/voicebox"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": []
+    },
+    {
+      "name": "HKUDS/DeepTutor",
+      "category": "B2B SaaS",
+      "domain": "AI Agents",
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "stars": 10506,
+      "forks": 1401,
+      "age_days": 62,
+      "app_buzz_score": 90,
+      "b2b_fit": 58,
+      "consumer_fit": 42,
+      "action": "MONITOR",
+      "one_liner": "\"DeepTutor: AI-Powered Personalized Learning Assistant\"",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Established player with strong community traction.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "HKUDS/DeepTutor",
+          "url": "https://github.com/HKUDS/DeepTutor"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "Copyleft license (AGPL-3.0) \u2014 may restrict commercial usage."
+      ]
+    },
+    {
+      "name": "datawhalechina/hello-agents",
+      "category": "B2B SaaS",
+      "domain": "AI Agents",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "stars": 23539,
+      "forks": 2664,
+      "age_days": 174,
+      "app_buzz_score": 91,
+      "b2b_fit": 58,
+      "consumer_fit": 32,
+      "action": "MONITOR",
+      "one_liner": "\ud83d\udcda \u300a\u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u667a\u80fd\u4f53\u300b\u2014\u2014\u4ece\u96f6\u5f00\u59cb\u7684\u667a\u80fd\u4f53\u539f\u7406\u4e0e\u5b9e\u8df5\u6559\u7a0b",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Established player with strong community traction.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "datawhalechina/hello-agents",
+          "url": "https://github.com/datawhalechina/hello-agents"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "No clear license \u2014 verify legal compatibility before integrating."
+      ]
+    },
+    {
+      "name": "BlockRunAI/ClawRouter",
+      "category": "B2B SaaS",
+      "domain": "AI Agents",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars": 3708,
+      "forks": 361,
+      "age_days": 24,
+      "app_buzz_score": 100,
+      "b2b_fit": 59,
+      "consumer_fit": 33,
+      "action": "MONITOR",
+      "one_liner": "The agent-native LLM router empowering OpenClaw \u2014 by BlockRunAI",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "BlockRunAI/ClawRouter",
+          "url": "https://github.com/BlockRunAI/ClawRouter"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": []
+    },
+    {
+      "name": "memovai/mimiclaw",
+      "category": "B2B SaaS",
+      "domain": "AI Agents",
+      "language": "C",
+      "license": "MIT",
+      "stars": 3573,
+      "forks": 474,
+      "age_days": 24,
+      "app_buzz_score": 100,
+      "b2b_fit": 59,
+      "consumer_fit": 43,
+      "action": "MONITOR",
+      "one_liner": "MimiClaw: Run OpenClaw on a $5 chip. No OS(Linux). No Node.js. No Mac mini. No Raspberry Pi. No VPS.\ud83d\ude17Local-first memory. Shareable. Portable. Privacy-first. Smarter than PicoClaw.",
+      "sentiment": {
+        "net": -1.0,
+        "pos": 0.0,
+        "neu": 0,
+        "neg": 1.0,
+        "drivers": {
+          "positive": [],
+          "negative": [
+            "Privacy"
+          ]
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "memovai/mimiclaw",
+          "url": "https://github.com/memovai/mimiclaw"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": []
+    },
+    {
+      "name": "nullclaw/nullclaw",
+      "category": "Consumer",
+      "domain": "AI Agents",
+      "language": "Zig",
+      "license": "MIT",
+      "stars": 2712,
+      "forks": 337,
+      "age_days": 11,
+      "app_buzz_score": 100,
+      "b2b_fit": 39,
+      "consumer_fit": 58,
+      "action": "MONITOR",
+      "one_liner": "Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig",
+      "sentiment": {
+        "net": 1.0,
+        "pos": 1.0,
+        "neu": 0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [
+            "Fast"
+          ],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "nullclaw/nullclaw",
+          "url": "https://github.com/nullclaw/nullclaw"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": []
+    },
+    {
+      "name": "PeonPing/peon-ping",
+      "category": "B2B SaaS",
+      "domain": "AI Coding",
+      "language": "Shell",
+      "license": "MIT",
+      "stars": 2946,
+      "forks": 212,
+      "age_days": 18,
+      "app_buzz_score": 100,
+      "b2b_fit": 59,
+      "consumer_fit": 33,
+      "action": "MONITOR",
+      "one_liner": "Warcraft III Peon voice notifications (+ more!) for Claude Code, Codex, IDEs, and any AI agent. Stop babysitting your terminal. Employ a Peon today.",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "PeonPing/peon-ping",
+          "url": "https://github.com/PeonPing/peon-ping"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Install CLI and run the basic commands (10 min)",
+        "Try processing a sample dataset or workflow (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "Relies on proprietary API \u2014 consider vendor lock-in and cost scaling."
+      ]
+    },
+    {
+      "name": "volcengine/OpenViking",
+      "category": "B2B SaaS",
+      "domain": "AI Agents",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars": 4237,
+      "forks": 324,
+      "age_days": 54,
+      "app_buzz_score": 94,
+      "b2b_fit": 58,
+      "consumer_fit": 32,
+      "action": "MONITOR",
+      "one_liner": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need throu",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "volcengine/OpenViking",
+          "url": "https://github.com/volcengine/OpenViking"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": []
+    },
+    {
+      "name": "steipete/summarize",
+      "category": "Consumer",
+      "domain": "General AI",
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "stars": 4601,
+      "forks": 277,
+      "age_days": 73,
+      "app_buzz_score": 94,
+      "b2b_fit": 38,
+      "consumer_fit": 65,
+      "action": "TRY",
+      "one_liner": "Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension.",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "steipete/summarize",
+          "url": "https://github.com/steipete/summarize"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Install CLI and run the basic commands (10 min)",
+        "Try processing a sample dataset or workflow (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "No clear license \u2014 verify legal compatibility before integrating."
+      ]
+    },
+    {
+      "name": "op7418/CodePilot",
+      "category": "Consumer",
+      "domain": "AI Coding",
+      "language": "TypeScript",
+      "license": "",
+      "stars": 2410,
+      "forks": 254,
+      "age_days": 22,
+      "app_buzz_score": 98,
+      "b2b_fit": 39,
+      "consumer_fit": 66,
+      "action": "TRY",
+      "one_liner": "A desktop GUI for Claude Code \u2014 chat, code, and manage projects visually. Built with Electron + Next.js.",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "op7418/CodePilot",
+          "url": "https://github.com/op7418/CodePilot"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Launch the demo/hosted version and explore the UI (10 min)",
+        "Test with your own data or a representative sample (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "No clear license \u2014 verify legal compatibility before integrating.",
+        "Relies on proprietary API \u2014 consider vendor lock-in and cost scaling."
+      ]
+    },
+    {
+      "name": "entireio/cli",
+      "category": "B2B SaaS",
+      "domain": "AI Agents",
+      "language": "Go",
+      "license": "MIT",
+      "stars": 3170,
+      "forks": 217,
+      "age_days": 56,
+      "app_buzz_score": 92,
+      "b2b_fit": 58,
+      "consumer_fit": 32,
+      "action": "MONITOR",
+      "one_liner": "Entire is a new developer platform that hooks into your git workflow to capture AI agent sessions on every push, unifying your code with its context and reasoning.",
+      "sentiment": {
+        "net": -1.0,
+        "pos": 0.0,
+        "neu": 0,
+        "neg": 1.0,
+        "drivers": {
+          "positive": [],
+          "negative": [
+            "Fail"
+          ]
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "entireio/cli",
+          "url": "https://github.com/entireio/cli"
+        },
+        {
+          "source": "hn",
+          "title": "Making MCP cheaper via CLI",
+          "url": "https://kanyilmaz.me/2026/02/23/cli-vs-mcp.html"
+        },
+        {
+          "source": "hn",
+          "title": "Aqua: A CLI message tool for AI agents",
+          "url": "https://github.com/quailyquaily/aqua"
+        },
+        {
+          "source": "hn",
+          "title": "Show HN: Memograph CLI- A tool to diagnose 'memory failures' in AI agents",
+          "url": "https://news.ycombinator.com/item?id=47153242"
+        },
+        {
+          "source": "hn",
+          "title": "Show HN: Yaw: terminal, SSH/database connections, AI Chat and optimized AI CLI",
+          "url": "https://yaw.sh"
+        },
+        {
+          "source": "hn",
+          "title": "Show HN: qbo-cli - Quickbooks CLI for AI Agents",
+          "url": "https://qbo-cli.com/"
+        },
+        {
+          "source": "hn",
+          "title": "Show HN: VibeFrame \u2013 AI video editor for the terminal (CLI and MCP)",
+          "url": "https://github.com/vericontext/vibeframe"
+        },
+        {
+          "source": "hn",
+          "title": "Show HN: A CLI to query the unsealed court files with local LLMs",
+          "url": "https://github.com/simulationship/epstein-search"
+        },
+        {
+          "source": "hn",
+          "title": "Show HN: Turn human decisions into blocking tool-calls for AI agents (iOS+CLI)",
+          "url": "https://github.com/egradman/extendo-cli"
+        },
+        {
+          "source": "hn",
+          "title": "Show HN: A human-curated, CLI-driven Context Layer for AI agents",
+          "url": "https://ctxlayer.dev/"
+        },
+        {
+          "source": "hn",
+          "title": "Show HN: Safari-CLI \u2013 Control Safari without an MCP",
+          "url": "https://www.npmjs.com/package/@tamasno1/safari-cli"
+        },
+        {
+          "source": "hn",
+          "title": "Show HN: H-CLI \u2013 Manage network infrastructure with natural language",
+          "url": "https://github.com/h-network/h-cli"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": []
+    },
+    {
+      "name": "Leonxlnx/taste-skill",
+      "category": "B2B SaaS",
+      "domain": "AI Coding",
+      "language": "",
+      "license": "",
+      "stars": 1753,
+      "forks": 114,
+      "age_days": 8,
+      "app_buzz_score": 97,
+      "b2b_fit": 59,
+      "consumer_fit": 33,
+      "action": "MONITOR",
+      "one_liner": "Taste-Skill (High-Agency Frontend) - gives your AI good taste. stops the AI from generating boring, generic, \"slop\"",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "Leonxlnx/taste-skill",
+          "url": "https://github.com/Leonxlnx/taste-skill"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "No clear license \u2014 verify legal compatibility before integrating."
+      ]
+    },
+    {
+      "name": "benjitaylor/agentation",
+      "category": "B2B SaaS",
+      "domain": "AI Agents",
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "stars": 2502,
+      "forks": 182,
+      "age_days": 41,
+      "app_buzz_score": 90,
+      "b2b_fit": 58,
+      "consumer_fit": 32,
+      "action": "MONITOR",
+      "one_liner": "The visual feedback tool for agents.",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "benjitaylor/agentation",
+          "url": "https://github.com/benjitaylor/agentation"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "No clear license \u2014 verify legal compatibility before integrating."
+      ]
+    },
+    {
+      "name": "Dimillian/CodexMonitor",
+      "category": "Consumer",
+      "domain": "AI Coding",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars": 2684,
+      "forks": 261,
+      "age_days": 48,
+      "app_buzz_score": 91,
+      "b2b_fit": 38,
+      "consumer_fit": 65,
+      "action": "TRY",
+      "one_liner": "An app to monitor the (Codex) situation",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "Dimillian/CodexMonitor",
+          "url": "https://github.com/Dimillian/CodexMonitor"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": []
+    },
+    {
+      "name": "hellodigua/ChatLab",
+      "category": "Consumer",
+      "domain": "AI Agents",
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "stars": 4716,
+      "forks": 1168,
+      "age_days": 94,
+      "app_buzz_score": 94,
+      "b2b_fit": 38,
+      "consumer_fit": 57,
+      "action": "MONITOR",
+      "one_liner": "A Local-first chat analysis tool: Relive your social memories powered by SQL and AI Agents. \u672c\u5730\u5316\u7684\u804a\u5929\u8bb0\u5f55\u5206\u6790\u5de5\u5177\uff0c\u901a\u8fc7 SQL \u548c AI Agent \u56de\u987e\u4f60\u7684\u793e\u4ea4\u8bb0\u5fc6\u3002",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "hellodigua/ChatLab",
+          "url": "https://github.com/hellodigua/ChatLab"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "Copyleft license (AGPL-3.0) \u2014 may restrict commercial usage."
+      ]
+    },
+    {
+      "name": "BIT-DataLab/Edit-Banana",
+      "category": "B2B SaaS",
+      "domain": "LLM Infrastructure",
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "stars": 2382,
+      "forks": 135,
+      "age_days": 43,
+      "app_buzz_score": 90,
+      "b2b_fit": 58,
+      "consumer_fit": 32,
+      "action": "MONITOR",
+      "one_liner": "Edit Banana: A framework for converting statistical formats into editable.",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "BIT-DataLab/Edit-Banana",
+          "url": "https://github.com/BIT-DataLab/Edit-Banana"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "Copyleft license (AGPL-3.0) \u2014 may restrict commercial usage."
+      ]
+    },
+    {
+      "name": "ValueCell-ai/ClawX",
+      "category": "B2B SaaS",
+      "domain": "AI Agents",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars": 1824,
+      "forks": 210,
+      "age_days": 23,
+      "app_buzz_score": 95,
+      "b2b_fit": 58,
+      "consumer_fit": 41,
+      "action": "MONITOR",
+      "one_liner": "ClawX is a desktop app that provides a graphical interface for OpenClaw AI agents. It turns CLI-based AI orchestration into a desktop experience without using the terminal. We\u2019ve moved from clawx.dev ",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "ValueCell-ai/ClawX",
+          "url": "https://github.com/ValueCell-ai/ClawX"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Install CLI and run the basic commands (10 min)",
+        "Try processing a sample dataset or workflow (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": []
+    },
+    {
+      "name": "datawhalechina/easy-vibe",
+      "category": "B2B SaaS",
+      "domain": "AI Coding",
+      "language": "JavaScript",
+      "license": "",
+      "stars": 2888,
+      "forks": 250,
+      "age_days": 61,
+      "app_buzz_score": 91,
+      "b2b_fit": 58,
+      "consumer_fit": 32,
+      "action": "MONITOR",
+      "one_liner": "vibe coding from 0 to 1 \uff5c vibecoding \u96f6\u57fa\u7840\u6559\u7a0b \uff5c \u4ea7\u54c1\u539f\u578b\u3001AI \u80fd\u529b\u96c6\u6210\u3001\u524d\u540e\u7aef\u5f00\u53d1\u3001\u591a\u5e73\u53f0\u5e94\u7528\u5f00\u53d1\u6559\u7a0b",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "datawhalechina/easy-vibe",
+          "url": "https://github.com/datawhalechina/easy-vibe"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "No clear license \u2014 verify legal compatibility before integrating."
+      ]
+    },
+    {
+      "name": "google/langextract",
+      "category": "B2B SaaS",
+      "domain": "LLM Infrastructure",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars": 33986,
+      "forks": 2269,
+      "age_days": 234,
+      "app_buzz_score": 82,
+      "b2b_fit": 56,
+      "consumer_fit": 31,
+      "action": "MONITOR",
+      "one_liner": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Established player with strong community traction.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "google/langextract",
+          "url": "https://github.com/google/langextract"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Install the package and run the hello-world example (10 min)",
+        "Test with a real use case from your product domain (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": []
+    },
+    {
+      "name": "ThePrimeagen/99",
+      "category": "B2B SaaS",
+      "domain": "AI Agents",
+      "language": "Lua",
+      "license": "",
+      "stars": 4168,
+      "forks": 200,
+      "age_days": 97,
+      "app_buzz_score": 93,
+      "b2b_fit": 58,
+      "consumer_fit": 32,
+      "action": "MONITOR",
+      "one_liner": "Neovim AI agent done right",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "ThePrimeagen/99",
+          "url": "https://github.com/ThePrimeagen/99"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "No clear license \u2014 verify legal compatibility before integrating.",
+        "Minimal description/documentation \u2014 evaluate quickly and move on if unclear."
+      ]
+    },
+    {
+      "name": "spacedriveapp/spacebot",
+      "category": "B2B SaaS",
+      "domain": "AI Agents",
+      "language": "Rust",
+      "license": "NOASSERTION",
+      "stars": 1459,
+      "forks": 201,
+      "age_days": 16,
+      "app_buzz_score": 94,
+      "b2b_fit": 58,
+      "consumer_fit": 32,
+      "action": "MONITOR",
+      "one_liner": "An AI agent for teams, communities, and multi-user environments.",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "spacedriveapp/spacebot",
+          "url": "https://github.com/spacedriveapp/spacebot"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "No clear license \u2014 verify legal compatibility before integrating."
+      ]
+    },
+    {
+      "name": "ykdojo/claude-code-tips",
+      "category": "B2B SaaS",
+      "domain": "AI Coding",
+      "language": "JavaScript",
+      "license": "NOASSERTION",
+      "stars": 3400,
+      "forks": 244,
+      "age_days": 92,
+      "app_buzz_score": 92,
+      "b2b_fit": 58,
+      "consumer_fit": 32,
+      "action": "MONITOR",
+      "one_liner": "45 tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "ykdojo/claude-code-tips",
+          "url": "https://github.com/ykdojo/claude-code-tips"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Install CLI and run the basic commands (10 min)",
+        "Try processing a sample dataset or workflow (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "No clear license \u2014 verify legal compatibility before integrating.",
+        "Relies on proprietary API \u2014 consider vendor lock-in and cost scaling."
+      ]
+    },
+    {
+      "name": "datawhalechina/vibe-vibe",
+      "category": "B2B SaaS",
+      "domain": "AI Agents",
+      "language": "",
+      "license": "",
+      "stars": 3345,
+      "forks": 274,
+      "age_days": 92,
+      "app_buzz_score": 91,
+      "b2b_fit": 58,
+      "consumer_fit": 32,
+      "action": "MONITOR",
+      "one_liner": "AI for All: The First Systematic Vibe Coding Tutorial | From Zero to Full-Stack, Bring Your Ideas to Life | Live at: www.vibevibe.cn   \uff1b\u5168\u6c11AI\u5b66\u4e60\u7b2c\u4e00\u8bfe\uff0c\u9996\u4e2a\u7cfb\u7edf\u5316 Vibe Coding \u5f00\u6e90\u6559\u7a0b | \u96f6\u57fa\u7840\u5230\u5168\u6808\u5b9e\u6218\uff0c\u8ba9\u4eba\u4eba\u90fd\u80fd\u501f\u52a9 AI \u5b9e\u73b0\u81ea\u5df1\u7684\u60f3\u6cd5\u4e0e\u521b",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "datawhalechina/vibe-vibe",
+          "url": "https://github.com/datawhalechina/vibe-vibe"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "No clear license \u2014 verify legal compatibility before integrating."
+      ]
+    },
+    {
+      "name": "tech-leads-club/agent-skills",
+      "category": "B2B SaaS",
+      "domain": "AI Coding",
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "stars": 1572,
+      "forks": 162,
+      "age_days": 40,
+      "app_buzz_score": 87,
+      "b2b_fit": 57,
+      "consumer_fit": 32,
+      "action": "MONITOR",
+      "one_liner": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "tech-leads-club/agent-skills",
+          "url": "https://github.com/tech-leads-club/agent-skills"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "No clear license \u2014 verify legal compatibility before integrating.",
+        "Relies on proprietary API \u2014 consider vendor lock-in and cost scaling."
+      ]
+    },
+    {
+      "name": "supabase/agent-skills",
+      "category": "B2B SaaS",
+      "domain": "AI Agents",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars": 1465,
+      "forks": 85,
+      "age_days": 43,
+      "app_buzz_score": 86,
+      "b2b_fit": 57,
+      "consumer_fit": 31,
+      "action": "MONITOR",
+      "one_liner": "Agent Skills to help developers using AI agents with Supabase",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "supabase/agent-skills",
+          "url": "https://github.com/supabase/agent-skills"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": []
+    },
+    {
+      "name": "unicodeveloper/globalthreatmap",
+      "category": "B2B SaaS",
+      "domain": "AI Agents",
+      "language": "TypeScript",
+      "license": "",
+      "stars": 1241,
+      "forks": 209,
+      "age_days": 36,
+      "app_buzz_score": 85,
+      "b2b_fit": 57,
+      "consumer_fit": 31,
+      "action": "MONITOR",
+      "one_liner": "Global threat map. Learn wars, conflicts, military bases and history of nations.",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "unicodeveloper/globalthreatmap",
+          "url": "https://github.com/unicodeveloper/globalthreatmap"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": [
+        "No clear license \u2014 verify legal compatibility before integrating."
+      ]
+    },
+    {
+      "name": "yoanbernabeu/grepai",
+      "category": "B2B SaaS",
+      "domain": "RAG & Knowledge",
+      "language": "C",
+      "license": "MIT",
+      "stars": 1349,
+      "forks": 101,
+      "age_days": 50,
+      "app_buzz_score": 85,
+      "b2b_fit": 57,
+      "consumer_fit": 31,
+      "action": "MONITOR",
+      "one_liner": "Semantic Search & Call Graphs for AI Agents (100% Local)",
+      "sentiment": {
+        "net": 0.0,
+        "pos": 0.0,
+        "neu": 1.0,
+        "neg": 0.0,
+        "drivers": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "competitive_note": "Growing project with meaningful adoption signals.",
+      "top_evidence": [
+        {
+          "source": "github",
+          "title": "yoanbernabeu/grepai",
+          "url": "https://github.com/yoanbernabeu/grepai"
+        }
+      ],
+      "try_plan_30min": [
+        "Read the README and quickstart guide (5 min)",
+        "Clone the repo and run the minimal example (10 min)",
+        "Evaluate core functionality against your requirements (10 min)",
+        "Assess: integration complexity, data privacy, and pricing model (5 min)"
+      ],
+      "watchouts": []
+    }
+  ],
   "shortlist": {
     "b2b_try": [],
-    "consumer_try": [],
-    "monitor": []
+    "consumer_try": [
+      "steipete/summarize",
+      "op7418/CodePilot",
+      "Dimillian/CodexMonitor"
+    ],
+    "monitor": [
+      "code-yeongyu/oh-my-opencode",
+      "koala73/worldmonitor",
+      "ZhuLinsen/daily_stock_analysis",
+      "jamiepine/voicebox",
+      "HKUDS/DeepTutor",
+      "datawhalechina/hello-agents",
+      "BlockRunAI/ClawRouter",
+      "memovai/mimiclaw"
+    ],
+    "ignore": [],
+    "top_pick": {
+      "name": "op7418/CodePilot",
+      "buzz": 98,
+      "one_liner": "A desktop GUI for Claude Code \u2014 chat, code, and manage projects visually. Built with Electron + Next.js.",
+      "reason": "Highest buzz score (98) among TRY-rated apps this week."
+    }
   }
 }
