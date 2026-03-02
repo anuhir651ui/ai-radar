@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-02-16",
-  "week_end": "2026-02-22",
-  "generated_at": "2026-02-22T21:00:25+00:00",
+  "week_start": "2026-02-24",
+  "week_end": "2026-03-02",
+  "generated_at": "2026-03-02T09:33:58+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Agent Passport \u2013 OAuth-like identity verification for AI agents",
-          "url": "https://news.ycombinator.com/item?id=47096131"
+          "title": "Show HN: A real-time strategy game that AI agents can play",
+          "url": "https://llmskirmish.com/"
         },
         {
           "source": "hn",
-          "title": "Show HN: Vestauth \u2013 Auth for Agents",
-          "url": "https://github.com/vestauth/vestauth"
+          "title": "Show HN: Emdash \u2013 Open-source agentic development environment",
+          "url": "https://github.com/generalaction/emdash"
         }
       ]
     },
@@ -33,31 +33,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Mirfield man's tears of joy after lost voicemail of wife retrieved (2015)",
-          "url": "https://www.bbc.co.uk/news/uk-england-leeds-31015325"
+          "title": "Show HN: Off Grid: On-device AI-web browsing, tools vision,image,voice\u20133x faster",
+          "url": "https://news.ycombinator.com/item?id=47142003"
         },
         {
           "source": "hn",
-          "title": "Show HN: Teapot \u2013 A methodology for pen testing voice AI agents",
-          "url": "https://www.redcaller.com/docs/methodologies/teapot-methodology"
-        }
-      ]
-    },
-    {
-      "topic": "Llms (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'llms' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "Show HN: I taught LLMs to play Magic: The Gathering against each other",
-          "url": "https://mage-bench.com/"
-        },
-        {
-          "source": "hn",
-          "title": "Ask HN: How do you employ LLMs for UI development?",
-          "url": "https://news.ycombinator.com/item?id=47073838"
+          "title": "Washington state hotline callers hear AI voice with Spanish accent \u2013 AP News",
+          "url": "https://apnews.com/article/washington-dol-spanish-accent-ai-3a1b8438a5674c07242a8d48c057d5a3"
         }
       ]
     },
@@ -69,31 +51,49 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Sub-Millisecond RAG on Apple Silicon. No Server. No API. One File",
-          "url": "https://github.com/christopherkarani/Wax"
+          "title": "Show HN: L88 \u2013 A Local RAG System on 8GB VRAM (Need Architecture Feedback)",
+          "url": "https://news.ycombinator.com/item?id=47133027"
         },
         {
           "source": "hn",
-          "title": "Trump announces new 10% global tariff after raging over Supreme Court loss",
-          "url": "https://www.cnbc.com/2026/02/20/trump-global-trade-tariff-supreme-court.html"
+          "title": "The Rejection of Artificially Generated Slop (Rags)",
+          "url": "https://406.fail/"
         }
       ]
     },
     {
-      "topic": "Why (buzz keyword)",
+      "topic": "Code (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'why' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'code' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Semantic ablation: Why AI writing is generic and boring",
-          "url": "https://www.theregister.com/2026/02/16/semantic_ablation_ai_writing/"
+          "title": "AI Made Writing Code Easier. It Made Being an Engineer Harder",
+          "url": "https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/"
         },
         {
           "source": "hn",
-          "title": "I guess I kinda get why people hate AI",
-          "url": "https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html"
+          "title": "If AI writes code, should the session be part of the commit?",
+          "url": "https://github.com/mandel-macaque/memento"
+        }
+      ]
+    },
+    {
+      "topic": "Open Source (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'open-source' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Show HN: Emdash \u2013 Open-source agentic development environment",
+          "url": "https://github.com/generalaction/emdash"
+        },
+        {
+          "source": "hn",
+          "title": "Show HN: Mission Control \u2013 Open-source task management for AI agents",
+          "url": "https://github.com/MeisnerDan/mission-control"
         }
       ]
     }
