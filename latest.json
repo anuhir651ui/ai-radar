@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-02-24",
-  "week_end": "2026-03-02",
-  "generated_at": "2026-03-02T09:33:58+00:00",
+  "week_start": "2026-03-03",
+  "week_end": "2026-03-09",
+  "generated_at": "2026-03-09T09:33:55+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: A real-time strategy game that AI agents can play",
-          "url": "https://llmskirmish.com/"
+          "title": "Show HN: P0 \u2013 Yes, AI can ship complex features into real codebases",
+          "url": "https://www.bepurple.ai/"
         },
         {
           "source": "hn",
-          "title": "Show HN: Emdash \u2013 Open-source agentic development environment",
-          "url": "https://github.com/generalaction/emdash"
+          "title": "Show HN: Jido 2.0, Elixir Agent Framework",
+          "url": "https://jido.run/blog/jido-2-0-is-here"
         }
       ]
     },
@@ -33,13 +33,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Off Grid: On-device AI-web browsing, tools vision,image,voice\u20133x faster",
-          "url": "https://news.ycombinator.com/item?id=47142003"
+          "title": "Launch HN: Cekura (YC F24) \u2013 Testing and monitoring for voice and chat AI agents",
+          "url": "https://news.ycombinator.com/item?id=47232903"
         },
         {
           "source": "hn",
-          "title": "Washington state hotline callers hear AI voice with Spanish accent \u2013 AP News",
-          "url": "https://apnews.com/article/washington-dol-spanish-accent-ai-3a1b8438a5674c07242a8d48c057d5a3"
+          "title": "Judge Voids Mass Layoffs at Voice of America",
+          "url": "https://www.nytimes.com/2026/03/07/us/politics/judge-kari-lake-voa-layoffs.html"
         }
       ]
     },
@@ -51,49 +51,49 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: L88 \u2013 A Local RAG System on 8GB VRAM (Need Architecture Feedback)",
-          "url": "https://news.ycombinator.com/item?id=47133027"
+          "title": "Show HN: Graph-Oriented Generation \u2013 Beating RAG for Codebases by 89%",
+          "url": "https://github.com/dchisholm125/graph-oriented-generation"
         },
         {
           "source": "hn",
-          "title": "The Rejection of Artificially Generated Slop (Rags)",
-          "url": "https://406.fail/"
+          "title": "Production Agentic RAG Course",
+          "url": "https://github.com/jamwithai/production-agentic-rag-course"
         }
       ]
     },
     {
-      "topic": "Code (buzz keyword)",
+      "topic": "Llms (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'code' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'llms' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "AI Made Writing Code Easier. It Made Being an Engineer Harder",
-          "url": "https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/"
+          "title": "LLMs work best when the user defines their acceptance criteria first",
+          "url": "https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code"
         },
         {
           "source": "hn",
-          "title": "If AI writes code, should the session be part of the commit?",
-          "url": "https://github.com/mandel-macaque/memento"
+          "title": "A tool that removes censorship from open-weight LLMs",
+          "url": "https://github.com/elder-plinius/OBLITERATUS"
         }
       ]
     },
     {
-      "topic": "Open Source (buzz keyword)",
+      "topic": "Can (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'open-source' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'can' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Emdash \u2013 Open-source agentic development environment",
-          "url": "https://github.com/generalaction/emdash"
+          "title": "AI-generated art can\u2019t be copyrighted after Supreme Court declines review",
+          "url": "https://www.theverge.com/policy/887678/supreme-court-ai-art-copyright"
         },
         {
           "source": "hn",
-          "title": "Show HN: Mission Control \u2013 Open-source task management for AI agents",
-          "url": "https://github.com/MeisnerDan/mission-control"
+          "title": "Cancel ChatGPT AI boycott surges after OpenAI pentagon military deal",
+          "url": "https://www.euronews.com/next/2026/03/02/cancel-chatgpt-ai-boycott-surges-after-openai-pentagon-military-deal"
         }
       ]
     }
