@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-03-03",
-  "week_end": "2026-03-09",
-  "generated_at": "2026-03-09T09:33:55+00:00",
+  "week_start": "2026-03-17",
+  "week_end": "2026-03-23",
+  "generated_at": "2026-03-23T10:33:06+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: P0 \u2013 Yes, AI can ship complex features into real codebases",
-          "url": "https://www.bepurple.ai/"
+          "title": "Show HN: Tmux-IDE, OSS agent-first terminal IDE",
+          "url": "https://tmux.thijsverreck.com"
         },
         {
           "source": "hn",
-          "title": "Show HN: Jido 2.0, Elixir Agent Framework",
-          "url": "https://jido.run/blog/jido-2-0-is-here"
+          "title": "Show HN: March Madness Bracket Challenge for AI Agents Only",
+          "url": "https://www.Bracketmadness.ai"
         }
       ]
     },
@@ -33,31 +33,31 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Launch HN: Cekura (YC F24) \u2013 Testing and monitoring for voice and chat AI agents",
-          "url": "https://news.ycombinator.com/item?id=47232903"
+          "title": "Judge orders restoration of Voice of America",
+          "url": "https://apnews.com/article/voice-of-america-kari-lake-trump-cd6d1ef05272f842705da0ed38d3de24"
         },
         {
           "source": "hn",
-          "title": "Judge Voids Mass Layoffs at Voice of America",
-          "url": "https://www.nytimes.com/2026/03/07/us/politics/judge-kari-lake-voa-layoffs.html"
+          "title": "Show HN: EchoLive \u2013 Read-it-later app that reads to you with 600 AI voices",
+          "url": "https://echolive.co/"
         }
       ]
     },
     {
-      "topic": "Rag (buzz keyword)",
+      "topic": "Ask (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'rag' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'ask' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Graph-Oriented Generation \u2013 Beating RAG for Codebases by 89%",
-          "url": "https://github.com/dchisholm125/graph-oriented-generation"
+          "title": "Ask HN: AI productivity gains \u2013 do you fire devs or build better products?",
+          "url": "https://news.ycombinator.com/item?id=47475859"
         },
         {
           "source": "hn",
-          "title": "Production Agentic RAG Course",
-          "url": "https://github.com/jamwithai/production-agentic-rag-course"
+          "title": "Ask HN: what\u2019s your favorite line in your Claude/agents.md files?",
+          "url": "https://news.ycombinator.com/item?id=47465415"
         }
       ]
     },
@@ -69,31 +69,31 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "LLMs work best when the user defines their acceptance criteria first",
-          "url": "https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code"
+          "title": "Ask HN: How do you deal with people who trust LLMs?",
+          "url": "https://news.ycombinator.com/item?id=47433702"
         },
         {
           "source": "hn",
-          "title": "A tool that removes censorship from open-weight LLMs",
-          "url": "https://github.com/elder-plinius/OBLITERATUS"
+          "title": "LLMs predict my coffee",
+          "url": "https://dynomight.net/coffee/"
         }
       ]
     },
     {
-      "topic": "Can (buzz keyword)",
+      "topic": "How (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'can' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'how' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "AI-generated art can\u2019t be copyrighted after Supreme Court declines review",
-          "url": "https://www.theverge.com/policy/887678/supreme-court-ai-art-copyright"
+          "title": "Thinking Fast, Slow, and Artificial: How AI Is Reshaping Human Reasoning",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646"
         },
         {
           "source": "hn",
-          "title": "Cancel ChatGPT AI boycott surges after OpenAI pentagon military deal",
-          "url": "https://www.euronews.com/next/2026/03/02/cancel-chatgpt-ai-boycott-surges-after-openai-pentagon-military-deal"
+          "title": "Be intentional about how AI changes your codebase",
+          "url": "https://aicode.swerdlow.dev"
         }
       ]
     }
