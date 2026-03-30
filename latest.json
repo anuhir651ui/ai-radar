@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-03-17",
-  "week_end": "2026-03-23",
-  "generated_at": "2026-03-23T10:33:06+00:00",
+  "week_start": "2026-03-24",
+  "week_end": "2026-03-30",
+  "generated_at": "2026-03-30T10:48:20+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,31 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Tmux-IDE, OSS agent-first terminal IDE",
-          "url": "https://tmux.thijsverreck.com"
+          "title": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
+          "url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/"
         },
         {
           "source": "hn",
-          "title": "Show HN: March Madness Bracket Challenge for AI Agents Only",
-          "url": "https://www.Bracketmadness.ai"
+          "title": "Show HN: ProofShot \u2013 Give AI coding agents eyes to verify the UI they build",
+          "url": "https://github.com/AmElmo/proofshot"
+        }
+      ]
+    },
+    {
+      "topic": "Rag (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'rag' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "HyperAgents: Self-referential self-improving agents",
+          "url": "https://github.com/facebookresearch/hyperagents"
+        },
+        {
+          "source": "hn",
+          "title": "Hypura \u2013 A storage-tier-aware LLM inference scheduler for Apple Silicon",
+          "url": "https://github.com/t8/hypura"
         }
       ]
     },
@@ -33,31 +51,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Judge orders restoration of Voice of America",
-          "url": "https://apnews.com/article/voice-of-america-kari-lake-trump-cd6d1ef05272f842705da0ed38d3de24"
+          "title": "Stop microphones from recording your voice",
+          "url": "https://www.deveillance.com"
         },
         {
           "source": "hn",
-          "title": "Show HN: EchoLive \u2013 Read-it-later app that reads to you with 600 AI voices",
-          "url": "https://echolive.co/"
-        }
-      ]
-    },
-    {
-      "topic": "Ask (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'ask' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "Ask HN: AI productivity gains \u2013 do you fire devs or build better products?",
-          "url": "https://news.ycombinator.com/item?id=47475859"
-        },
-        {
-          "source": "hn",
-          "title": "Ask HN: what\u2019s your favorite line in your Claude/agents.md files?",
-          "url": "https://news.ycombinator.com/item?id=47465415"
+          "title": "Show HN: I built a voice AI that responds like a real woman",
+          "url": "https://news.ycombinator.com/item?id=47521785"
         }
       ]
     },
@@ -69,31 +69,31 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Ask HN: How do you deal with people who trust LLMs?",
-          "url": "https://news.ycombinator.com/item?id=47433702"
+          "title": "Taming LLMs: Using Executable Oracles to Prevent Bad Code",
+          "url": "https://john.regehr.org/writing/zero_dof_programming.html"
         },
         {
           "source": "hn",
-          "title": "LLMs predict my coffee",
-          "url": "https://dynomight.net/coffee/"
+          "title": "Are LLMs a Dead End? [video]",
+          "url": "https://www.youtube.com/watch?v=9IMV80GvBpU"
         }
       ]
     },
     {
-      "topic": "How (buzz keyword)",
+      "topic": "Coding (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'how' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'coding' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Thinking Fast, Slow, and Artificial: How AI Is Reshaping Human Reasoning",
-          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646"
+          "title": "Show HN: ProofShot \u2013 Give AI coding agents eyes to verify the UI they build",
+          "url": "https://github.com/AmElmo/proofshot"
         },
         {
           "source": "hn",
-          "title": "Be intentional about how AI changes your codebase",
-          "url": "https://aicode.swerdlow.dev"
+          "title": "Coding agents could make free software matter again",
+          "url": "https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/"
         }
       ]
     }
