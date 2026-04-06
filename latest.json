@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-03-24",
-  "week_end": "2026-03-30",
-  "generated_at": "2026-03-30T10:48:20+00:00",
+  "week_start": "2026-03-31",
+  "week_end": "2026-04-06",
+  "generated_at": "2026-04-06T08:23:03+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,31 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
-          "url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/"
+          "title": "Show HN: Apfel \u2013 The free AI already on your Mac",
+          "url": "https://apfel.franzai.com"
         },
         {
           "source": "hn",
-          "title": "Show HN: ProofShot \u2013 Give AI coding agents eyes to verify the UI they build",
-          "url": "https://github.com/AmElmo/proofshot"
-        }
-      ]
-    },
-    {
-      "topic": "Rag (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'rag' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "HyperAgents: Self-referential self-improving agents",
-          "url": "https://github.com/facebookresearch/hyperagents"
-        },
-        {
-          "source": "hn",
-          "title": "Hypura \u2013 A storage-tier-aware LLM inference scheduler for Apple Silicon",
-          "url": "https://github.com/t8/hypura"
+          "title": "Show HN: Travel Hacking Toolkit \u2013 Points search and trip planning with AI",
+          "url": "https://github.com/borski/travel-hacking-toolkit"
         }
       ]
     },
@@ -51,13 +33,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Stop microphones from recording your voice",
-          "url": "https://www.deveillance.com"
+          "title": "Show HN: Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B",
+          "url": "https://github.com/fikrikarim/parlor"
         },
         {
           "source": "hn",
-          "title": "Show HN: I built a voice AI that responds like a real woman",
-          "url": "https://news.ycombinator.com/item?id=47521785"
+          "title": "MAI-Transcribe-1, MAI-Voice-1 and MAI-Image-2 are available in Foundry",
+          "url": "https://microsoft.ai/news/today-were-announcing-3-new-world-class-mai-models-available-in-foundry/"
         }
       ]
     },
@@ -69,31 +51,49 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Taming LLMs: Using Executable Oracles to Prevent Bad Code",
-          "url": "https://john.regehr.org/writing/zero_dof_programming.html"
+          "title": "Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs",
+          "url": "https://prismml.com/"
         },
         {
           "source": "hn",
-          "title": "Are LLMs a Dead End? [video]",
-          "url": "https://www.youtube.com/watch?v=9IMV80GvBpU"
+          "title": "The case for zero-error horizons in trustworthy LLMs",
+          "url": "https://arxiv.org/abs/2601.15714"
         }
       ]
     },
     {
-      "topic": "Coding (buzz keyword)",
+      "topic": "Claude (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'coding' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'claude' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: ProofShot \u2013 Give AI coding agents eyes to verify the UI they build",
-          "url": "https://github.com/AmElmo/proofshot"
+          "title": "Show HN: Real-time dashboard for Claude Code agent teams",
+          "url": "https://github.com/simple10/agents-observe"
         },
         {
           "source": "hn",
-          "title": "Coding agents could make free software matter again",
-          "url": "https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/"
+          "title": "A case study in testing with 100+ Claude agents in parallel",
+          "url": "https://imbue.com/product/mngr_part_2/"
+        }
+      ]
+    },
+    {
+      "topic": "Code (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'code' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Show HN: Real-time dashboard for Claude Code agent teams",
+          "url": "https://github.com/simple10/agents-observe"
+        },
+        {
+          "source": "hn",
+          "title": "Anthropic Races to Contain Leak of Code Behind Claude AI Agent",
+          "url": "https://www.wsj.com/tech/ai/anthropic-races-to-contain-leak-of-code-behind-claude-ai-agent-4bc5acc7"
         }
       ]
     }
