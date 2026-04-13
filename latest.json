@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-03-31",
-  "week_end": "2026-04-06",
-  "generated_at": "2026-04-06T08:23:03+00:00",
+  "week_start": "2026-04-07",
+  "week_end": "2026-04-13",
+  "generated_at": "2026-04-13T09:02:56+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Apfel \u2013 The free AI already on your Mac",
-          "url": "https://apfel.franzai.com"
+          "title": "Show HN: We fingerprinted 178 AI models' writing styles and similarity clusters",
+          "url": "https://rival.tips/research/model-similarity"
         },
         {
           "source": "hn",
-          "title": "Show HN: Travel Hacking Toolkit \u2013 Points search and trip planning with AI",
-          "url": "https://github.com/borski/travel-hacking-toolkit"
+          "title": "Show HN: CSS Studio. Design by hand, code by agent",
+          "url": "https://cssstudio.ai"
         }
       ]
     },
@@ -33,13 +33,49 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B",
-          "url": "https://github.com/fikrikarim/parlor"
+          "title": "AI Company Clones Musician's Voice, Then Copyright-Strikes Her Own Songs",
+          "url": "https://rudevulture.com/ai-company-clones-musicians-voice-then-copyright-strikes-her-own-songs/"
         },
         {
           "source": "hn",
-          "title": "MAI-Transcribe-1, MAI-Voice-1 and MAI-Image-2 are available in Foundry",
-          "url": "https://microsoft.ai/news/today-were-announcing-3-new-world-class-mai-models-available-in-foundry/"
+          "title": "Show HN: Lingle \u2013 Voice agent to simulate zoom-based personal language lessons",
+          "url": "https://lingle.ai/"
+        }
+      ]
+    },
+    {
+      "topic": "Rag (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'rag' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Bouncer: Block \"crypto\", \"rage politics\", and more from your X feed using AI",
+          "url": "https://github.com/imbue-ai/bouncer"
+        },
+        {
+          "source": "hn",
+          "title": "RAG 40x faster using binary quantization (2024)",
+          "url": "https://lightning.ai/lightning-ai/templates/rag-40x-faster-using-binary-quantization"
+        }
+      ]
+    },
+    {
+      "topic": "Using (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'using' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "LLM plays an 8-bit Commander X16 game using structured \"smart senses\"",
+          "url": "https://pvp-ai.russell-harper.com"
+        },
+        {
+          "source": "hn",
+          "title": "Show HN: Control your X/Twitter feed using a small on-device LLM",
+          "url": "https://imbue.com/product/bouncer/"
         }
       ]
     },
@@ -51,49 +87,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs",
-          "url": "https://prismml.com/"
+          "title": "Taste in the age of AI and LLMs",
+          "url": "https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/"
         },
         {
           "source": "hn",
-          "title": "The case for zero-error horizons in trustworthy LLMs",
-          "url": "https://arxiv.org/abs/2601.15714"
-        }
-      ]
-    },
-    {
-      "topic": "Claude (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'claude' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "Show HN: Real-time dashboard for Claude Code agent teams",
-          "url": "https://github.com/simple10/agents-observe"
-        },
-        {
-          "source": "hn",
-          "title": "A case study in testing with 100+ Claude agents in parallel",
-          "url": "https://imbue.com/product/mngr_part_2/"
-        }
-      ]
-    },
-    {
-      "topic": "Code (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'code' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "Show HN: Real-time dashboard for Claude Code agent teams",
-          "url": "https://github.com/simple10/agents-observe"
-        },
-        {
-          "source": "hn",
-          "title": "Anthropic Races to Contain Leak of Code Behind Claude AI Agent",
-          "url": "https://www.wsj.com/tech/ai/anthropic-races-to-contain-leak-of-code-behind-claude-ai-agent-4bc5acc7"
+          "title": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU",
+          "url": "https://arxiv.org/abs/2604.05091"
         }
       ]
     }
