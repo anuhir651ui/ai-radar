@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-04-07",
-  "week_end": "2026-04-13",
-  "generated_at": "2026-04-13T09:02:56+00:00",
+  "week_start": "2026-04-14",
+  "week_end": "2026-04-20",
+  "generated_at": "2026-04-20T09:09:24+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,31 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: We fingerprinted 178 AI models' writing styles and similarity clusters",
-          "url": "https://rival.tips/research/model-similarity"
+          "title": "Show HN: Libretto \u2013 Making AI browser automations deterministic",
+          "url": "https://github.com/saffron-health/libretto"
         },
         {
           "source": "hn",
-          "title": "Show HN: CSS Studio. Design by hand, code by agent",
-          "url": "https://cssstudio.ai"
-        }
-      ]
-    },
-    {
-      "topic": "Voice (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'voice' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "AI Company Clones Musician's Voice, Then Copyright-Strikes Her Own Songs",
-          "url": "https://rudevulture.com/ai-company-clones-musicians-voice-then-copyright-strikes-her-own-songs/"
-        },
-        {
-          "source": "hn",
-          "title": "Show HN: Lingle \u2013 Voice agent to simulate zoom-based personal language lessons",
-          "url": "https://lingle.ai/"
+          "title": "Show HN: Plain \u2013 The full-stack Python framework designed for humans and agents",
+          "url": "https://github.com/dropseed/plain"
         }
       ]
     },
@@ -51,31 +33,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Bouncer: Block \"crypto\", \"rage politics\", and more from your X feed using AI",
-          "url": "https://github.com/imbue-ai/bouncer"
+          "title": "Show HN: AI support chatbot with RAG and citations \u2013 one back end file, no infra",
+          "url": "https://github.com/oncellai/oncell-support-agent"
         },
         {
           "source": "hn",
-          "title": "RAG 40x faster using binary quantization (2024)",
-          "url": "https://lightning.ai/lightning-ai/templates/rag-40x-faster-using-binary-quantization"
-        }
-      ]
-    },
-    {
-      "topic": "Using (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'using' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "LLM plays an 8-bit Commander X16 game using structured \"smart senses\"",
-          "url": "https://pvp-ai.russell-harper.com"
-        },
-        {
-          "source": "hn",
-          "title": "Show HN: Control your X/Twitter feed using a small on-device LLM",
-          "url": "https://imbue.com/product/bouncer/"
+          "title": "Turning RAG pipelines into enterprise-grade Data Subscriptions",
+          "url": "https://halcyon.io/blog/machine-readable/building-the-stack"
         }
       ]
     },
@@ -87,13 +51,49 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Taste in the age of AI and LLMs",
-          "url": "https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/"
+          "title": "Ask HN: How are you actively keeping your thinking sharp while using LLMs daily?",
+          "url": "https://news.ycombinator.com/item?id=47791163"
         },
         {
           "source": "hn",
-          "title": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU",
-          "url": "https://arxiv.org/abs/2604.05091"
+          "title": "Ask HN: How are you using LLMs in production?",
+          "url": "https://news.ycombinator.com/item?id=47791832"
+        }
+      ]
+    },
+    {
+      "topic": "Voice (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'voice' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Voice actors fight to save their livelihoods from Hollywood's AI push",
+          "url": "https://restofworld.org/2026/ai-voice-actors-hollywood-dubbing/"
+        },
+        {
+          "source": "hn",
+          "title": "Chinese carmaker patents voice-controlled 'in-vehicle toilet'",
+          "url": "https://www.bbc.com/news/articles/c1l92yv4mydo"
+        }
+      ]
+    },
+    {
+      "topic": "Coding (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'coding' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "An AI Vibe Coding Horror Story",
+          "url": "https://www.tobru.ch/an-ai-vibe-coding-horror-story/"
+        },
+        {
+          "source": "hn",
+          "title": "Qwen3.6-35B-A3B: Agentic coding power, now open to all",
+          "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
         }
       ]
     }
