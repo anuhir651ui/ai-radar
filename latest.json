@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-04-14",
-  "week_end": "2026-04-20",
-  "generated_at": "2026-04-20T09:09:24+00:00",
+  "week_start": "2026-04-21",
+  "week_end": "2026-04-27",
+  "generated_at": "2026-04-27T09:22:57+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,49 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Libretto \u2013 Making AI browser automations deterministic",
-          "url": "https://github.com/saffron-health/libretto"
+          "title": "Scoring Show HN submissions for AI design patterns",
+          "url": "https://www.adriankrebs.ch/blog/design-slop/"
         },
         {
           "source": "hn",
-          "title": "Show HN: Plain \u2013 The full-stack Python framework designed for humans and agents",
-          "url": "https://github.com/dropseed/plain"
-        }
-      ]
-    },
-    {
-      "topic": "Rag (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'rag' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "Show HN: AI support chatbot with RAG and citations \u2013 one back end file, no infra",
-          "url": "https://github.com/oncellai/oncell-support-agent"
-        },
-        {
-          "source": "hn",
-          "title": "Turning RAG pipelines into enterprise-grade Data Subscriptions",
-          "url": "https://halcyon.io/blog/machine-readable/building-the-stack"
-        }
-      ]
-    },
-    {
-      "topic": "Llms (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'llms' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "Ask HN: How are you actively keeping your thinking sharp while using LLMs daily?",
-          "url": "https://news.ycombinator.com/item?id=47791163"
-        },
-        {
-          "source": "hn",
-          "title": "Ask HN: How are you using LLMs in production?",
-          "url": "https://news.ycombinator.com/item?id=47791832"
+          "title": "Show HN: GoModel \u2013 an open-source AI gateway in Go",
+          "url": "https://github.com/ENTERPILOT/GOModel/"
         }
       ]
     },
@@ -69,31 +33,67 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Voice actors fight to save their livelihoods from Hollywood's AI push",
-          "url": "https://restofworld.org/2026/ai-voice-actors-hollywood-dubbing/"
+          "title": "Voice Modems",
+          "url": "https://computer.rip/2026-04-26-voice-modems.html"
         },
         {
           "source": "hn",
-          "title": "Chinese carmaker patents voice-controlled 'in-vehicle toilet'",
-          "url": "https://www.bbc.com/news/articles/c1l92yv4mydo"
+          "title": "Show HN: Aide \u2013 A customizable Android assistant (voice, choose your provider)",
+          "url": "https://aideassistant.com/"
         }
       ]
     },
     {
-      "topic": "Coding (buzz keyword)",
+      "topic": "Llms (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'coding' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'llms' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "An AI Vibe Coding Horror Story",
-          "url": "https://www.tobru.ch/an-ai-vibe-coding-horror-story/"
+          "title": "Show HN: How LLMs Work \u2013 Interactive visual guide based on Karpathy's lecture",
+          "url": "https://ynarwal.github.io/how-llms-work/"
         },
         {
           "source": "hn",
-          "title": "Qwen3.6-35B-A3B: Agentic coding power, now open to all",
-          "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+          "title": "Nicholas Carlini \u2013 Black-hat LLMs [video]",
+          "url": "https://www.youtube.com/watch?v=1sd26pWhfmg"
+        }
+      ]
+    },
+    {
+      "topic": "Code (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'code' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "MeshCore development team splits over trademark dispute and AI-generated code",
+          "url": "https://blog.meshcore.io/2026/04/23/the-split"
+        },
+        {
+          "source": "hn",
+          "title": "Hear your agent suffer through your code",
+          "url": "https://github.com/AndrewVos/endless-toil"
+        }
+      ]
+    },
+    {
+      "topic": "Agentic (buzz keyword)",
+      "trend_score": 90,
+      "why_now": "Keyword 'agentic' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Agentic AI systems violate the implicit assumptions of database design",
+          "url": "https://arpitbhayani.me/blogs/defensive-databases/"
+        },
+        {
+          "source": "hn",
+          "title": "Our eighth generation TPUs: two chips for the agentic era",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/"
         }
       ]
     }
