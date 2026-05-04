@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-04-21",
-  "week_end": "2026-04-27",
-  "generated_at": "2026-04-27T09:22:57+00:00",
+  "week_start": "2026-04-28",
+  "week_end": "2026-05-04",
+  "generated_at": "2026-05-04T09:24:31+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Scoring Show HN submissions for AI design patterns",
-          "url": "https://www.adriankrebs.ch/blog/design-slop/"
+          "title": "Show HN: Agent-desktop \u2013 Native desktop automation CLI for AI agents",
+          "url": "https://github.com/lahfir/agent-desktop"
         },
         {
           "source": "hn",
-          "title": "Show HN: GoModel \u2013 an open-source AI gateway in Go",
-          "url": "https://github.com/ENTERPILOT/GOModel/"
+          "title": "Show HN: DAC \u2013 open-source dashboard as code tool for agents and humans",
+          "url": "https://github.com/bruin-data/dac"
         }
       ]
     },
@@ -33,13 +33,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Voice Modems",
-          "url": "https://computer.rip/2026-04-26-voice-modems.html"
+          "title": "VibeVoice: Open-source frontier voice AI",
+          "url": "https://github.com/microsoft/VibeVoice"
         },
         {
           "source": "hn",
-          "title": "Show HN: Aide \u2013 A customizable Android assistant (voice, choose your provider)",
-          "url": "https://aideassistant.com/"
+          "title": "Show HN: VoiceGoat \u2013 A vulnerable voice agent for practicing LLM attacks",
+          "url": "https://github.com/redcaller/voice-goat"
         }
       ]
     },
@@ -51,49 +51,49 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: How LLMs Work \u2013 Interactive visual guide based on Karpathy's lecture",
-          "url": "https://ynarwal.github.io/how-llms-work/"
+          "title": "Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs",
+          "url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code"
         },
         {
           "source": "hn",
-          "title": "Nicholas Carlini \u2013 Black-hat LLMs [video]",
-          "url": "https://www.youtube.com/watch?v=1sd26pWhfmg"
+          "title": "Advanced Quantization Algorithm for LLMs",
+          "url": "https://github.com/intel/auto-round"
         }
       ]
     },
     {
-      "topic": "Code (buzz keyword)",
+      "topic": "Open Source (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'code' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'open-source' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "MeshCore development team splits over trademark dispute and AI-generated code",
-          "url": "https://blog.meshcore.io/2026/04/23/the-split"
+          "title": "Localsend: An open-source cross-platform alternative to AirDrop",
+          "url": "https://github.com/localsend/localsend"
         },
         {
           "source": "hn",
-          "title": "Hear your agent suffer through your code",
-          "url": "https://github.com/AndrewVos/endless-toil"
+          "title": "VibeVoice: Open-source frontier voice AI",
+          "url": "https://github.com/microsoft/VibeVoice"
         }
       ]
     },
     {
-      "topic": "Agentic (buzz keyword)",
-      "trend_score": 90,
-      "why_now": "Keyword 'agentic' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "topic": "Api (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'api' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Agentic AI systems violate the implicit assumptions of database design",
-          "url": "https://arpitbhayani.me/blogs/defensive-databases/"
+          "title": "Claude.ai unavailable and elevated errors on the API",
+          "url": "https://status.claude.com/incidents/9l93x2ht4s5w"
         },
         {
           "source": "hn",
-          "title": "Our eighth generation TPUs: two chips for the agentic era",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/"
+          "title": "Claude.ai and API unavailable [fixed]",
+          "url": "https://status.claude.com/incidents/2gf1jpyty350"
         }
       ]
     }
