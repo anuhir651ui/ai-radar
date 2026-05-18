@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-04-28",
-  "week_end": "2026-05-04",
-  "generated_at": "2026-05-04T09:24:31+00:00",
+  "week_start": "2026-05-12",
+  "week_end": "2026-05-18",
+  "generated_at": "2026-05-18T11:08:49+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Agent-desktop \u2013 Native desktop automation CLI for AI agents",
-          "url": "https://github.com/lahfir/agent-desktop"
+          "title": "Two EA-18 fighter jets collide at Mountain Home airshow, pilots ejected safely",
+          "url": "https://idahonews.com/news/local/two-f-18-fighter-jets-have-crashed-during-an-airshow-at-mountain-home-air-force-base"
         },
         {
           "source": "hn",
-          "title": "Show HN: DAC \u2013 open-source dashboard as code tool for agents and humans",
-          "url": "https://github.com/bruin-data/dac"
+          "title": "Show HN: Statewright \u2013 Visual state machines that make AI agents reliable",
+          "url": "https://github.com/statewright/statewright"
         }
       ]
     },
@@ -33,13 +33,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "VibeVoice: Open-source frontier voice AI",
-          "url": "https://github.com/microsoft/VibeVoice"
+          "title": "Show HN: Voice gender classifier for European voice AI (1MB, ONNX, 4ms)",
+          "url": "https://huggingface.co/syntropicsignal-ai/gender-voice-classifier"
         },
         {
           "source": "hn",
-          "title": "Show HN: VoiceGoat \u2013 A vulnerable voice agent for practicing LLM attacks",
-          "url": "https://github.com/redcaller/voice-goat"
+          "title": "Voice parsing using AI for calender app",
+          "url": "https://apps.apple.com/us/app/voxplan/id6761635850"
         }
       ]
     },
@@ -51,49 +51,49 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs",
-          "url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code"
+          "title": "Rars: a Rust RAR implementation, mostly written by LLMs",
+          "url": "https://bitplane.net/log/2026/05/rars/"
         },
         {
           "source": "hn",
-          "title": "Advanced Quantization Algorithm for LLMs",
-          "url": "https://github.com/intel/auto-round"
+          "title": "LLMs are breaking 20 year old system design",
+          "url": "https://zknill.io/posts/llms-are-breaking-20-year-old-system-design/"
         }
       ]
     },
     {
-      "topic": "Open Source (buzz keyword)",
+      "topic": "Claude (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'open-source' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'claude' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Localsend: An open-source cross-platform alternative to AirDrop",
-          "url": "https://github.com/localsend/localsend"
+          "title": "Use the Claude Agent SDK with Your Claude Plan",
+          "url": "https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan"
         },
         {
           "source": "hn",
-          "title": "VibeVoice: Open-source frontier voice AI",
-          "url": "https://github.com/microsoft/VibeVoice"
+          "title": "Claude subscriptions no longer include Agent SDK and Claude -p usage",
+          "url": "https://www.xda-developers.com/anthropics-claude-subscriptions-no-longer-include-agent-sdk-and-claude-p-usage/"
         }
       ]
     },
     {
-      "topic": "Api (buzz keyword)",
+      "topic": "Code (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'api' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'code' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Claude.ai unavailable and elevated errors on the API",
-          "url": "https://status.claude.com/incidents/9l93x2ht4s5w"
+          "title": "Show HN: Semble \u2013 Code search for agents that uses 98% fewer tokens than grep",
+          "url": "https://github.com/MinishLab/semble"
         },
         {
           "source": "hn",
-          "title": "Claude.ai and API unavailable [fixed]",
-          "url": "https://status.claude.com/incidents/2gf1jpyty350"
+          "title": "Show HN: Full Stack HQ \u2013 Claude.md and Agent Stack for Claude Code",
+          "url": "https://github.com/sabahattink/antigravity-fullstack-hq"
         }
       ]
     }
