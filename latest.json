@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-05-12",
-  "week_end": "2026-05-18",
-  "generated_at": "2026-05-18T11:08:49+00:00",
+  "week_start": "2026-05-19",
+  "week_end": "2026-05-25",
+  "generated_at": "2026-05-25T11:13:13+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Two EA-18 fighter jets collide at Mountain Home airshow, pilots ejected safely",
-          "url": "https://idahonews.com/news/local/two-f-18-fighter-jets-have-crashed-during-an-airshow-at-mountain-home-air-force-base"
+          "title": "Show HN: Forge \u2013 Guardrails take an 8B model from 53% to 99% on agentic tasks",
+          "url": "https://github.com/antoinezambelli/forge"
         },
         {
           "source": "hn",
-          "title": "Show HN: Statewright \u2013 Visual state machines that make AI agents reliable",
-          "url": "https://github.com/statewright/statewright"
+          "title": "Show HN: Agent.email \u2013 sign up via curl, claim with a human OTP",
+          "url": "https://news.ycombinator.com/item?id=48225596"
         }
       ]
     },
@@ -33,13 +33,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Voice gender classifier for European voice AI (1MB, ONNX, 4ms)",
-          "url": "https://huggingface.co/syntropicsignal-ai/gender-voice-classifier"
+          "title": "NTSB pulls docket after AI recreates dead pilots' voices",
+          "url": "https://arstechnica.com/ai/2026/05/ai-users-re-create-dead-pilots-voices-from-crash-investigation-docs/"
         },
         {
           "source": "hn",
-          "title": "Voice parsing using AI for calender app",
-          "url": "https://apps.apple.com/us/app/voxplan/id6761635850"
+          "title": "Show HN: Voxxy \u2013 a minimal, fast voice-to-text app for macOS",
+          "url": "https://www.voxxy.io"
         }
       ]
     },
@@ -51,49 +51,49 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Rars: a Rust RAR implementation, mostly written by LLMs",
-          "url": "https://bitplane.net/log/2026/05/rars/"
+          "title": "The last six months in LLMs in five minutes",
+          "url": "https://simonwillison.net/2026/May/19/5-minute-llms/"
         },
         {
           "source": "hn",
-          "title": "LLMs are breaking 20 year old system design",
-          "url": "https://zknill.io/posts/llms-are-breaking-20-year-old-system-design/"
+          "title": "Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O",
+          "url": "https://arxiv.org/abs/2605.12460"
         }
       ]
     },
     {
-      "topic": "Claude (buzz keyword)",
+      "topic": "Coding (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'claude' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'coding' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Use the Claude Agent SDK with Your Claude Plan",
-          "url": "https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan"
+          "title": "Formal Verification Gates for AI Coding Loops",
+          "url": "https://reubenbrooks.dev/blog/structural-backpressure-beats-smarter-agents/"
         },
         {
           "source": "hn",
-          "title": "Claude subscriptions no longer include Agent SDK and Claude -p usage",
-          "url": "https://www.xda-developers.com/anthropics-claude-subscriptions-no-longer-include-agent-sdk-and-claude-p-usage/"
+          "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+          "url": "https://esengine.github.io/DeepSeek-Reasonix/"
         }
       ]
     },
     {
-      "topic": "Code (buzz keyword)",
+      "topic": "Agentic (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'code' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'agentic' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Semble \u2013 Code search for agents that uses 98% fewer tokens than grep",
-          "url": "https://github.com/MinishLab/semble"
+          "title": "Show HN: Forge \u2013 Guardrails take an 8B model from 53% to 99% on agentic tasks",
+          "url": "https://github.com/antoinezambelli/forge"
         },
         {
           "source": "hn",
-          "title": "Show HN: Full Stack HQ \u2013 Claude.md and Agent Stack for Claude Code",
-          "url": "https://github.com/sabahattink/antigravity-fullstack-hq"
+          "title": "Open-Source Agentic QA Harness with Memory",
+          "url": "https://github.com/vostride/agent-qa"
         }
       ]
     }
