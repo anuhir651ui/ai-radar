@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-06-02",
-  "week_end": "2026-06-08",
-  "generated_at": "2026-06-08T12:00:59+00:00",
+  "week_start": "2026-06-09",
+  "week_end": "2026-06-15",
+  "generated_at": "2026-06-15T13:19:25+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Paseo \u2013 Beautiful open-source coding agent interface",
-          "url": "https://github.com/getpaseo/paseo"
+          "title": "Show HN: Paca \u2013 Lightweight Jira alternative for human-AI collaboration",
+          "url": "https://github.com/Paca-AI/paca"
         },
         {
           "source": "hn",
-          "title": "Show HN: Cost.dev (YC W21) \u2013 making agents cost-aware and cheaper to call",
-          "url": "https://cost.dev/"
+          "title": "Show HN: Claw Patrol, a security firewall for agents",
+          "url": "https://github.com/denoland/clawpatrol"
         }
       ]
     },
@@ -33,31 +33,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Brume is a 24-voice multi-timbral desktop synth for the CM5",
-          "url": "https://brume.aftertone.co/"
+          "title": "The forgotten Scots who gave Kafka his voice",
+          "url": "https://engelsbergideas.com/reviews/the-forgotten-scots-who-gave-kafka-his-voice/"
         },
         {
           "source": "hn",
-          "title": "Ask HN: How to voice disagreement over S&P500 inclusion rules change for SpaceX?",
-          "url": "https://news.ycombinator.com/item?id=48390573"
-        }
-      ]
-    },
-    {
-      "topic": "Llms (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'llms' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "LLMs are eroding my software engineering career and I don't know what to do",
-          "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/"
-        },
-        {
-          "source": "hn",
-          "title": "How LLMs work",
-          "url": "https://www.0xkato.xyz/how-llms-actually-work/"
+          "title": "Show HN: OpenYabby, voice-controlled multi-agent orchestrator for Claude Code",
+          "url": "https://github.com/OpenYabby/OpenYabby"
         }
       ]
     },
@@ -69,31 +51,49 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Harness engineering: Leveraging Codex in an agent-first world",
-          "url": "https://openai.com/index/harness-engineering/"
+          "title": "Show HN: A 150M model that extracts verbatim evidence spans for RAG, no LLM call",
+          "url": "https://huggingface.co/KRLabsOrg/verbatim-rag-modern-bert-v2"
         },
         {
           "source": "hn",
-          "title": "How we index images for RAG",
-          "url": "https://www.kapa.ai/blog/how-we-index-images-for-rag"
+          "title": "Show HN: Built a public demo to explore SpaceX's IPO filing using multimodal RAG",
+          "url": "https://www.calypso.so/demos/spacex-ipo-filing"
         }
       ]
     },
     {
-      "topic": "Ask (buzz keyword)",
+      "topic": "Local (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'ask' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'local' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Ask HN: Why is the HN crowd so anti-AI?",
-          "url": "https://news.ycombinator.com/item?id=48420827"
+          "title": "How to setup a local coding agent on macOS",
+          "url": "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos"
         },
         {
           "source": "hn",
-          "title": "Ask HN: What is your (AI) dev tech stack / workflow?",
-          "url": "https://news.ycombinator.com/item?id=48413629"
+          "title": "Re-quantizing a local LLM 14x faster by skipping the tensors that didn't change",
+          "url": "https://andreaborio.substack.com/p/re-quantizing-a-local-model-14-faster"
+        }
+      ]
+    },
+    {
+      "topic": "Llms (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'llms' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Can LLMs Beat Classical Hyperparameter Optimization Algorithms?",
+          "url": "https://arxiv.org/abs/2603.24647"
+        },
+        {
+          "source": "hn",
+          "title": "MTG Bench: Testing how well LLMs can play Magic",
+          "url": "https://mtgautodeck.com/articles/mtg-bench/"
         }
       ]
     }
