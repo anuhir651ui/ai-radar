@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-06-09",
-  "week_end": "2026-06-15",
-  "generated_at": "2026-06-15T13:19:25+00:00",
+  "week_start": "2026-06-16",
+  "week_end": "2026-06-22",
+  "generated_at": "2026-06-22T12:51:41+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Paca \u2013 Lightweight Jira alternative for human-AI collaboration",
-          "url": "https://github.com/Paca-AI/paca"
+          "title": "Show HN: I built 184 free browser tools \u2013 PDF, image, dev, AI tasks, no upload",
+          "url": "https://brevio.pro"
         },
         {
           "source": "hn",
-          "title": "Show HN: Claw Patrol, a security firewall for agents",
-          "url": "https://github.com/denoland/clawpatrol"
+          "title": "Show HN: Crawlie \u2013 Free open-source SEO audit tool for humans and agents",
+          "url": "https://github.com/spronta/crawlie"
         }
       ]
     },
@@ -33,13 +33,49 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "The forgotten Scots who gave Kafka his voice",
-          "url": "https://engelsbergideas.com/reviews/the-forgotten-scots-who-gave-kafka-his-voice/"
+          "title": "Show HN: Tyto \u2013 find where audio breaks your voice-agent calls",
+          "url": "https://call-analysis.ai-coustics.com/"
         },
         {
           "source": "hn",
-          "title": "Show HN: OpenYabby, voice-controlled multi-agent orchestrator for Claude Code",
-          "url": "https://github.com/OpenYabby/OpenYabby"
+          "title": "Show HN: VoiceDraw \u2013 Talk system design out loud, the diagrams draw themselves",
+          "url": "https://voicedraw.com/"
+        }
+      ]
+    },
+    {
+      "topic": "Agentic (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'agentic' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Building reliable agentic AI systems",
+          "url": "https://martinfowler.com/articles/reliable-llm-bayer.html"
+        },
+        {
+          "source": "hn",
+          "title": "Agentic coding deserves more than a chat box bolted onto VS Code",
+          "url": "https://github.com/evanklem/polypore"
+        }
+      ]
+    },
+    {
+      "topic": "Built (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'built' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Show HN: I built 184 free browser tools \u2013 PDF, image, dev, AI tasks, no upload",
+          "url": "https://brevio.pro"
+        },
+        {
+          "source": "hn",
+          "title": "We built a persistent agent memory layer on Elasticsearch with 0.89 recall",
+          "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch"
         }
       ]
     },
@@ -51,49 +87,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: A 150M model that extracts verbatim evidence spans for RAG, no LLM call",
-          "url": "https://huggingface.co/KRLabsOrg/verbatim-rag-modern-bert-v2"
+          "title": "Inside the Rage Machine [video]",
+          "url": "https://www.bbc.com/video/docs/series/10294077"
         },
         {
           "source": "hn",
-          "title": "Show HN: Built a public demo to explore SpaceX's IPO filing using multimodal RAG",
-          "url": "https://www.calypso.so/demos/spacex-ipo-filing"
-        }
-      ]
-    },
-    {
-      "topic": "Local (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'local' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "How to setup a local coding agent on macOS",
-          "url": "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos"
-        },
-        {
-          "source": "hn",
-          "title": "Re-quantizing a local LLM 14x faster by skipping the tensors that didn't change",
-          "url": "https://andreaborio.substack.com/p/re-quantizing-a-local-model-14-faster"
-        }
-      ]
-    },
-    {
-      "topic": "Llms (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'llms' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "Can LLMs Beat Classical Hyperparameter Optimization Algorithms?",
-          "url": "https://arxiv.org/abs/2603.24647"
-        },
-        {
-          "source": "hn",
-          "title": "MTG Bench: Testing how well LLMs can play Magic",
-          "url": "https://mtgautodeck.com/articles/mtg-bench/"
+          "title": "Compress tool outputs, logs, files, RAG chunks before LLM for 60-95% less tokens",
+          "url": "https://github.com/chopratejas/headroom"
         }
       ]
     }
