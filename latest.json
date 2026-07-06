@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-06-23",
-  "week_end": "2026-06-29",
-  "generated_at": "2026-06-29T12:02:04+00:00",
+  "week_start": "2026-06-30",
+  "week_end": "2026-07-06",
+  "generated_at": "2026-07-06T11:39:25+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,31 +15,31 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: OpenKnowledge \u2013 open source AI-first alternative to Obsidian/Notion",
-          "url": "https://github.com/inkeep/open-knowledge"
+          "title": "Show HN: ctx \u2013 Search the coding agent history already on your machine",
+          "url": "https://github.com/ctxrs/ctx"
         },
         {
           "source": "hn",
-          "title": "Show HN: Adrafinil \u2013 keep a lid-closed Mac awake only while agents work",
-          "url": "https://github.com/kageroumado/adrafinil"
+          "title": "Show HN: QUALITY.md \u2013 open format/specification, agent skill, and CLI",
+          "url": "https://getquality.md"
         }
       ]
     },
     {
-      "topic": "Voice (buzz keyword)",
+      "topic": "Coding (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'voice' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'coding' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Hasbro's TV Contracts Ask Child Voice Actors to Sign Rights Away for AI Use",
-          "url": "https://www.hollywoodreporter.com/business/business-news/studio-minor-performers-surrender-voices-ai-1236630694/"
+          "title": "The short leash AI coding method for beating Fable",
+          "url": "https://blog.okturtles.org/2026/07/short-leash-ai-method/"
         },
         {
           "source": "hn",
-          "title": "Yap \u2013 free offline voice dictation for Mac/Windows/Linux (Wispr Flow alt)",
-          "url": "https://github.com/AkuchiS/yap"
+          "title": "Agentic coding notes",
+          "url": "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post"
         }
       ]
     },
@@ -51,31 +51,31 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
-          "url": "https://deep-reinforce.com/ornith_1_0.html"
+          "title": "Jamesob's guide to running SOTA LLMs locally",
+          "url": "https://github.com/jamesob/local-llm"
         },
         {
           "source": "hn",
-          "title": "Ornith-1.0: A family of open-source LLMs specialized for agentic coding",
-          "url": "https://twitter.com/ornith_/status/2070148887067963854"
+          "title": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?",
+          "url": "https://news.ycombinator.com/item?id=48771515"
         }
       ]
     },
     {
-      "topic": "Rag (buzz keyword)",
+      "topic": "Local (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'rag' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'local' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Haystack: Open-Source AI Framework for Production Ready Agents, RAG",
-          "url": "https://haystack.deepset.ai/"
+          "title": "Protect your right to run local\u00a0AI",
+          "url": "https://righttointelligence.org/"
         },
         {
           "source": "hn",
-          "title": "Show HN: Bible as RAG Database",
-          "url": "https://www.crosscanon.com/"
+          "title": "Using Local Coding Agents \u2013 By Sebastian Raschka, PhD",
+          "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents"
         }
       ]
     },
@@ -87,13 +87,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Ask HN: MacBook vs. Dedicated GPU for LLM",
-          "url": "https://news.ycombinator.com/item?id=48694802"
+          "title": "Ask HN: Why are so many \"AI evangelists\" posting such insufferable content?",
+          "url": "https://news.ycombinator.com/item?id=48765450"
         },
         {
           "source": "hn",
-          "title": "Ask HN: Running local LLMs? What's your model and hardware",
-          "url": "https://news.ycombinator.com/item?id=48698057"
+          "title": "Ask HN: Secure wrapper for coding agents?",
+          "url": "https://news.ycombinator.com/item?id=48732627"
         }
       ]
     }
