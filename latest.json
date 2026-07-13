@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-06-30",
-  "week_end": "2026-07-06",
-  "generated_at": "2026-07-06T11:39:25+00:00",
+  "week_start": "2026-07-07",
+  "week_end": "2026-07-13",
+  "generated_at": "2026-07-13T10:30:32+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,67 +15,31 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: ctx \u2013 Search the coding agent history already on your machine",
-          "url": "https://github.com/ctxrs/ctx"
+          "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+          "url": "https://microsoft.github.io/flint-chart/#/"
         },
         {
           "source": "hn",
-          "title": "Show HN: QUALITY.md \u2013 open format/specification, agent skill, and CLI",
-          "url": "https://getquality.md"
+          "title": "Show HN: FableCut \u2013 A browser video editor AI agents can drive (zero deps)",
+          "url": "https://github.com/ronak-create/FableCut"
         }
       ]
     },
     {
-      "topic": "Coding (buzz keyword)",
+      "topic": "Voice (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'coding' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'voice' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "The short leash AI coding method for beating Fable",
-          "url": "https://blog.okturtles.org/2026/07/short-leash-ai-method/"
+          "title": "The Chinese Voice Actor Forced to Prove He's Human",
+          "url": "https://www.sixthtone.com/news/1018753"
         },
         {
           "source": "hn",
-          "title": "Agentic coding notes",
-          "url": "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post"
-        }
-      ]
-    },
-    {
-      "topic": "Llms (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'llms' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "Jamesob's guide to running SOTA LLMs locally",
-          "url": "https://github.com/jamesob/local-llm"
-        },
-        {
-          "source": "hn",
-          "title": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?",
-          "url": "https://news.ycombinator.com/item?id=48771515"
-        }
-      ]
-    },
-    {
-      "topic": "Local (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'local' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "Protect your right to run local\u00a0AI",
-          "url": "https://righttointelligence.org/"
-        },
-        {
-          "source": "hn",
-          "title": "Using Local Coding Agents \u2013 By Sebastian Raschka, PhD",
-          "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents"
+          "title": "EdgeSpeech: Local voice processing for React Native",
+          "url": "https://github.com/switchboard-sdk/EdgeSpeech"
         }
       ]
     },
@@ -87,13 +51,49 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Ask HN: Why are so many \"AI evangelists\" posting such insufferable content?",
-          "url": "https://news.ycombinator.com/item?id=48765450"
+          "title": "Ask HN: Add flag for AI-generated articles",
+          "url": "https://news.ycombinator.com/item?id=48886741"
         },
         {
           "source": "hn",
-          "title": "Ask HN: Secure wrapper for coding agents?",
-          "url": "https://news.ycombinator.com/item?id=48732627"
+          "title": "Ask HN: Another \"Hacker News\" with less AI and more human-focused hacking news?",
+          "url": "https://news.ycombinator.com/item?id=48834961"
+        }
+      ]
+    },
+    {
+      "topic": "Llms (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'llms' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "I love LLMs, I hate hype",
+          "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html"
+        },
+        {
+          "source": "hn",
+          "title": "Mechanistic interpretability researchers applying causality theory to LLMs",
+          "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/"
+        }
+      ]
+    },
+    {
+      "topic": "How (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'how' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+          "url": "https://microsoft.github.io/flint-chart/#/"
+        },
+        {
+          "source": "hn",
+          "title": "How the terrorist group Boko Haram uses frontier AI",
+          "url": "https://casp.ac/reports/ai-enabled-terrorism"
         }
       ]
     }
