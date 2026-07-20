@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-07-07",
-  "week_end": "2026-07-13",
-  "generated_at": "2026-07-13T10:30:32+00:00",
+  "week_start": "2026-07-14",
+  "week_end": "2026-07-20",
+  "generated_at": "2026-07-20T10:15:05+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
-          "url": "https://microsoft.github.io/flint-chart/#/"
+          "title": "Show HN: I RL-trained an agent that trains models with RL (for ~$1.3k)",
+          "url": "https://github.com/Danau5tin/ai-trains-ai"
         },
         {
           "source": "hn",
-          "title": "Show HN: FableCut \u2013 A browser video editor AI agents can drive (zero deps)",
-          "url": "https://github.com/ronak-create/FableCut"
+          "title": "Show HN: Oodle.ai \u2013 $10 per million agent traces",
+          "url": "https://www.oodle.ai/product/agent-observability"
         }
       ]
     },
@@ -33,31 +33,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "The Chinese Voice Actor Forced to Prove He's Human",
-          "url": "https://www.sixthtone.com/news/1018753"
+          "title": "The Three-Second Theft: Why AI Voice Fraud Outruns Every Defence",
+          "url": "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence"
         },
         {
           "source": "hn",
-          "title": "EdgeSpeech: Local voice processing for React Native",
-          "url": "https://github.com/switchboard-sdk/EdgeSpeech"
-        }
-      ]
-    },
-    {
-      "topic": "Ask (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'ask' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "Ask HN: Add flag for AI-generated articles",
-          "url": "https://news.ycombinator.com/item?id=48886741"
-        },
-        {
-          "source": "hn",
-          "title": "Ask HN: Another \"Hacker News\" with less AI and more human-focused hacking news?",
-          "url": "https://news.ycombinator.com/item?id=48834961"
+          "title": "Turn your singing voice into printable notes (in the browser)",
+          "url": "https://om-intelligence.ch/projects/vocal-notation/vocal-notation.html"
         }
       ]
     },
@@ -69,31 +51,49 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "I love LLMs, I hate hype",
-          "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html"
+          "title": "The LLM Critics Are Right. I Use LLMs Anyway",
+          "url": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/"
         },
         {
           "source": "hn",
-          "title": "Mechanistic interpretability researchers applying causality theory to LLMs",
-          "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/"
+          "title": "DSLs Enable Reliable Use of LLMs",
+          "url": "https://martinfowler.com/articles/llm-and-dsls.html"
         }
       ]
     },
     {
-      "topic": "How (buzz keyword)",
+      "topic": "Coding (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'how' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'coding' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
-          "url": "https://microsoft.github.io/flint-chart/#/"
+          "title": "Open-source memory for coding agents, synced over SSH",
+          "url": "https://github.com/vshulcz/deja-vu/"
         },
         {
           "source": "hn",
-          "title": "How the terrorist group Boko Haram uses frontier AI",
-          "url": "https://casp.ac/reports/ai-enabled-terrorism"
+          "title": "Coding agents think ahead of time",
+          "url": "https://arxiv.org/abs/2607.05188"
+        }
+      ]
+    },
+    {
+      "topic": "Open (buzz keyword)",
+      "trend_score": 90,
+      "why_now": "Keyword 'open' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "The state of open source AI",
+          "url": "https://stateofopensource.ai/"
+        },
+        {
+          "source": "hn",
+          "title": "LM Studio Bionic: the AI agent for open models",
+          "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic"
         }
       ]
     }
