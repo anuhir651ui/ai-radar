@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-07-14",
-  "week_end": "2026-07-20",
-  "generated_at": "2026-07-20T10:15:05+00:00",
+  "week_start": "2026-07-21",
+  "week_end": "2026-07-27",
+  "generated_at": "2026-07-27T10:46:02+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: I RL-trained an agent that trains models with RL (for ~$1.3k)",
-          "url": "https://github.com/Danau5tin/ai-trains-ai"
+          "title": "Show HN: Palmier Pro \u2013 Open-source macOS video editor built for AI",
+          "url": "https://github.com/palmier-io/palmier-pro"
         },
         {
           "source": "hn",
-          "title": "Show HN: Oodle.ai \u2013 $10 per million agent traces",
-          "url": "https://www.oodle.ai/product/agent-observability"
+          "title": "Show HN: OneCLI \u2013 OSS credential gateway that keeps secrets out of AI agents",
+          "url": "https://github.com/onecli/onecli"
         }
       ]
     },
@@ -33,13 +33,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "The Three-Second Theft: Why AI Voice Fraud Outruns Every Defence",
-          "url": "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence"
+          "title": "Inflect-Micro-v2: complete voice in 9.36M parameters",
+          "url": "https://huggingface.co/owensong/Inflect-Micro-v2"
         },
         {
           "source": "hn",
-          "title": "Turn your singing voice into printable notes (in the browser)",
-          "url": "https://om-intelligence.ch/projects/vocal-notation/vocal-notation.html"
+          "title": "Show HN: Jargo, a Go port of Pipecat for building realtime voice agents",
+          "url": "https://github.com/gojargo/jargo"
         }
       ]
     },
@@ -51,49 +51,49 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "The LLM Critics Are Right. I Use LLMs Anyway",
-          "url": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/"
+          "title": "Protecting our FLOSS commons from LLMs",
+          "url": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html"
         },
         {
           "source": "hn",
-          "title": "DSLs Enable Reliable Use of LLMs",
-          "url": "https://martinfowler.com/articles/llm-and-dsls.html"
+          "title": "Petals: Run LLMs at home, BitTorrent-style",
+          "url": "https://petals.dev/"
         }
       ]
     },
     {
-      "topic": "Coding (buzz keyword)",
+      "topic": "Rag (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'coding' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'rag' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Open-source memory for coding agents, synced over SSH",
-          "url": "https://github.com/vshulcz/deja-vu/"
+          "title": "A Pragmatic Approach to LLMs",
+          "url": "https://gracefulliberty.com/articles/pragmatic-llms/"
         },
         {
           "source": "hn",
-          "title": "Coding agents think ahead of time",
-          "url": "https://arxiv.org/abs/2607.05188"
+          "title": "Bordeaux considering 'total evacuation if needed' as wildfires rage nearby",
+          "url": "https://news.sky.com/story/europe-wildfires-latest-french-tourist-hotspot-evacuated-as-national-emergency-declared-in-spain-13566532"
         }
       ]
     },
     {
-      "topic": "Open (buzz keyword)",
-      "trend_score": 90,
-      "why_now": "Keyword 'open' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "topic": "What (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'what' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "The state of open source AI",
-          "url": "https://stateofopensource.ai/"
+          "title": "What is happening to jobs? Separating AI hype from reality",
+          "url": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality"
         },
         {
           "source": "hn",
-          "title": "LM Studio Bionic: the AI agent for open models",
-          "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic"
+          "title": "What if LLMs escape through inferences itself? This is fiction. For now",
+          "url": "https://www.agrillo.it/EvasionEn.html"
         }
       ]
     }
