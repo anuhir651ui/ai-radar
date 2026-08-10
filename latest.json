@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-07-28",
-  "week_end": "2026-08-03",
-  "generated_at": "2026-08-03T10:46:08+00:00",
+  "week_start": "2026-08-04",
+  "week_end": "2026-08-10",
+  "generated_at": "2026-08-10T08:41:35+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: What should the GUI for AI agents look like?",
-          "url": "https://marbleos.com/demo"
+          "title": "Microsoft's AI Sales Mostly Come from OpenAI, Disclosures Show",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show"
         },
         {
           "source": "hn",
-          "title": "Show HN: Sprocket \u2013 The Best AI Agent for Hardware and Software Development",
-          "url": "https://sprocket-demo.spikonado.com"
+          "title": "Show HN: The Channels SDK \u2013 Bring Any Agent to Any Channel (Slack, MS Teams)",
+          "url": "https://github.com/CopilotKit/channels-sdk"
         }
       ]
     },
@@ -33,13 +33,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Judge Voices Doubt US Has Justified Its Ban on Anthropic AI",
-          "url": "https://www.bloomberg.com/news/articles/2026-07-30/judge-voices-doubt-us-has-justified-its-ban-on-anthropic-ai"
+          "title": "An AI voice agent running locally on a $50 Arduino uno Q",
+          "url": "https://projecthub.arduino.cc/neelbuilds/build-a-voice-based-kiosk-for-retail-store-using-moorcheh-edge-and-arduino-uno-q-7f3c7b"
         },
         {
           "source": "hn",
-          "title": "Show HN: Echologue \u2013 the private AI voice journal I built for myself",
-          "url": "https://echologue.com/"
+          "title": "Show HN: Voice driven murder mystery, Interview AI suspects with your voice",
+          "url": "https://www.whodunnitai.com/"
         }
       ]
     },
@@ -51,31 +51,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Now is the time to give LLMs access to the ACM digital library",
-          "url": "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library/"
+          "title": "How I use LLMs to learn complex topics",
+          "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/"
         },
         {
           "source": "hn",
-          "title": "TokenTown: A visual way to understand how LLMs work",
-          "url": "https://laurentiugabriel.github.io/token-town/"
-        }
-      ]
-    },
-    {
-      "topic": "How (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'how' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "Show HN: What should the GUI for AI agents look like?",
-          "url": "https://marbleos.com/demo"
-        },
-        {
-          "source": "hn",
-          "title": "Show HN: Sprocket \u2013 The Best AI Agent for Hardware and Software Development",
-          "url": "https://sprocket-demo.spikonado.com"
+          "title": "Position: LLMs Can't Jump",
+          "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt"
         }
       ]
     },
@@ -87,13 +69,31 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
-          "url": "https://github.com/schildep/verified-3d-mesh-intersection"
+          "title": "Oracle bans AI-generated code from OpenJDK",
+          "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code"
         },
         {
           "source": "hn",
-          "title": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode",
-          "url": "https://github.com/YoanWai/agent-manager"
+          "title": "Agent skills that bring team coding standards to Claude Code and Codex",
+          "url": "https://github.com/tikalk/adlc-team-skills"
+        }
+      ]
+    },
+    {
+      "topic": "Agentic (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'agentic' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+          "url": "https://artificialanalysis.ai/?intelligence=agentic-index"
+        },
+        {
+          "source": "hn",
+          "title": "OpenChamber: An Agentic Development Environment",
+          "url": "https://openchamber.dev/"
         }
       ]
     }
