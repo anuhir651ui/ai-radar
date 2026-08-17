@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-08-04",
-  "week_end": "2026-08-10",
-  "generated_at": "2026-08-10T08:41:35+00:00",
+  "week_start": "2026-08-11",
+  "week_end": "2026-08-17",
+  "generated_at": "2026-08-17T07:54:52+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Microsoft's AI Sales Mostly Come from OpenAI, Disclosures Show",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show"
+          "title": "Show HN: Mole \u2013 Deep research agent for your terminal",
+          "url": "https://github.com/lajosdeme/mole"
         },
         {
           "source": "hn",
-          "title": "Show HN: The Channels SDK \u2013 Bring Any Agent to Any Channel (Slack, MS Teams)",
-          "url": "https://github.com/CopilotKit/channels-sdk"
+          "title": "Show HN: MCP Memory \u2013 Fast Agent Memory Using Google's OKF and SQLite FTS5",
+          "url": "https://github.com/fellowgeek/mcp-memory"
         }
       ]
     },
@@ -33,13 +33,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "An AI voice agent running locally on a $50 Arduino uno Q",
-          "url": "https://projecthub.arduino.cc/neelbuilds/build-a-voice-based-kiosk-for-retail-store-using-moorcheh-edge-and-arduino-uno-q-7f3c7b"
+          "title": "Show HN: Remove AI voice from AI writings",
+          "url": "https://unslopai.com"
         },
         {
           "source": "hn",
-          "title": "Show HN: Voice driven murder mystery, Interview AI suspects with your voice",
-          "url": "https://www.whodunnitai.com/"
+          "title": "The unlikely opera star: How AI helped a nonspeaking performer find his voice",
+          "url": "https://www.scientificamerican.com/podcast/episode/a-nonspeaking-person-is-the-star-of-this-opera-ai-made-that-possible/"
         }
       ]
     },
@@ -51,49 +51,49 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "How I use LLMs to learn complex topics",
-          "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/"
+          "title": "What sort of maths are LLMs good at?",
+          "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/"
         },
         {
           "source": "hn",
-          "title": "Position: LLMs Can't Jump",
-          "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt"
+          "title": "It's How You Ask: Gender-Associated Linguistic Bias in LLMs",
+          "url": "https://arxiv.org/abs/2608.13328"
         }
       ]
     },
     {
-      "topic": "Code (buzz keyword)",
+      "topic": "Coding (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'code' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'coding' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Oracle bans AI-generated code from OpenJDK",
-          "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code"
+          "title": "Working with AI feels more like leadership than coding",
+          "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/"
         },
         {
           "source": "hn",
-          "title": "Agent skills that bring team coding standards to Claude Code and Codex",
-          "url": "https://github.com/tikalk/adlc-team-skills"
+          "title": "Hax \u2013 a minimalist, terminal-native coding agent written in C",
+          "url": "https://usehax.dev/"
         }
       ]
     },
     {
-      "topic": "Agentic (buzz keyword)",
+      "topic": "How (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'agentic' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'how' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
-          "url": "https://artificialanalysis.ai/?intelligence=agentic-index"
+          "title": "How AI text watermarking works",
+          "url": "https://declaude.org/watermarking/"
         },
         {
           "source": "hn",
-          "title": "OpenChamber: An Agentic Development Environment",
-          "url": "https://openchamber.dev/"
+          "title": "How Organizations Use AI: Evidence from ChatGPT [pdf]",
+          "url": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf"
         }
       ]
     }
