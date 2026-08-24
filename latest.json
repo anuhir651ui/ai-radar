@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-08-11",
-  "week_end": "2026-08-17",
-  "generated_at": "2026-08-17T07:54:52+00:00",
+  "week_start": "2026-08-18",
+  "week_end": "2026-08-24",
+  "generated_at": "2026-08-24T07:59:06+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Mole \u2013 Deep research agent for your terminal",
-          "url": "https://github.com/lajosdeme/mole"
+          "title": "Show HN: Huzzah \u2013 a novel approach to coding with AI",
+          "url": "https://www.danielvaughn.dev/posts/huzzah/"
         },
         {
           "source": "hn",
-          "title": "Show HN: MCP Memory \u2013 Fast Agent Memory Using Google's OKF and SQLite FTS5",
-          "url": "https://github.com/fellowgeek/mcp-memory"
+          "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html"
         }
       ]
     },
@@ -33,13 +33,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Remove AI voice from AI writings",
-          "url": "https://unslopai.com"
+          "title": "US Military newspaper editor voices censorship fears after being fired",
+          "url": "https://www.bbc.com/news/articles/cm2g23ng8p4o"
         },
         {
           "source": "hn",
-          "title": "The unlikely opera star: How AI helped a nonspeaking performer find his voice",
-          "url": "https://www.scientificamerican.com/podcast/episode/a-nonspeaking-person-is-the-star-of-this-opera-ai-made-that-possible/"
+          "title": "Pine AI getting 75.4% (SoTA) on \u03c4\u00b3-Voice Leaderboard",
+          "url": "http://taubench.com/leaderboard/"
         }
       ]
     },
@@ -51,13 +51,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "What sort of maths are LLMs good at?",
-          "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/"
+          "title": "Extensible Software in the age of LLMs",
+          "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/"
         },
         {
           "source": "hn",
-          "title": "It's How You Ask: Gender-Associated Linguistic Bias in LLMs",
-          "url": "https://arxiv.org/abs/2608.13328"
+          "title": "LLMs are proof that Unix won",
+          "url": "https://bastian.rieck.me/blog/2026/unix/"
         }
       ]
     },
@@ -69,31 +69,31 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Working with AI feels more like leadership than coding",
-          "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/"
+          "title": "Show HN: Huzzah \u2013 a novel approach to coding with AI",
+          "url": "https://www.danielvaughn.dev/posts/huzzah/"
         },
         {
           "source": "hn",
-          "title": "Hax \u2013 a minimalist, terminal-native coding agent written in C",
-          "url": "https://usehax.dev/"
+          "title": "fx :Tiny, open, native coding agent.",
+          "url": "https://fx.sh"
         }
       ]
     },
     {
-      "topic": "How (buzz keyword)",
+      "topic": "Using (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'how' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'using' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "How AI text watermarking works",
-          "url": "https://declaude.org/watermarking/"
+          "title": "Show HN: INXM // local` OSS for using LLM as compiler and not as runtime",
+          "url": "https://github.com/inxm-ai/inxm-local"
         },
         {
           "source": "hn",
-          "title": "How Organizations Use AI: Evidence from ChatGPT [pdf]",
-          "url": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf"
+          "title": "I reverse-engineering the closed GoodNotes format using LLMs",
+          "url": "https://github.com/Kaih1825/parser-for-goodnotes"
         }
       ]
     }
