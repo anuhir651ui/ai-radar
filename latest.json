@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-08-18",
-  "week_end": "2026-08-24",
-  "generated_at": "2026-08-24T07:59:06+00:00",
+  "week_start": "2026-08-25",
+  "week_end": "2026-08-31",
+  "generated_at": "2026-08-31T14:56:39+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Huzzah \u2013 a novel approach to coding with AI",
-          "url": "https://www.danielvaughn.dev/posts/huzzah/"
+          "title": "Show HN: I made a Raspberry with Qwen my local car AI",
+          "url": "https://github.com/ThinkOffApp/CarWatch"
         },
         {
           "source": "hn",
-          "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-          "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html"
+          "title": "Show HN: A lightweight, stateless database for agent memory",
+          "url": "https://polign.com/blog-edge-agent-memory"
         }
       ]
     },
@@ -33,13 +33,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "US Military newspaper editor voices censorship fears after being fired",
-          "url": "https://www.bbc.com/news/articles/cm2g23ng8p4o"
+          "title": "Show HN: Kuma Voice \u2013 OSS Apple Watch voice assistant, no iPhone needed",
+          "url": "https://github.com/itsperini/kuma-voice"
         },
         {
           "source": "hn",
-          "title": "Pine AI getting 75.4% (SoTA) on \u03c4\u00b3-Voice Leaderboard",
-          "url": "http://taubench.com/leaderboard/"
+          "title": "Can a voice agent tell \"mmhm\" from an interruption?",
+          "url": "https://izmailov.dev/blog/smart-conversation"
         }
       ]
     },
@@ -51,49 +51,49 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Extensible Software in the age of LLMs",
-          "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/"
+          "title": "Changes to Sourcehut's terms of service regarding LLMs",
+          "url": "https://sourcehut.org/blog/2026-08-27-tos-changes-and-llms/"
         },
         {
           "source": "hn",
-          "title": "LLMs are proof that Unix won",
-          "url": "https://bastian.rieck.me/blog/2026/unix/"
+          "title": "LLMs are making me lose my savviness",
+          "url": "https://pgaleone.eu/ai/2026/08/29/losing-savviness/"
         }
       ]
     },
     {
-      "topic": "Coding (buzz keyword)",
+      "topic": "Use (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'coding' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'use' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Huzzah \u2013 a novel approach to coding with AI",
-          "url": "https://www.danielvaughn.dev/posts/huzzah/"
+          "title": "Debian votes to allow \"responsible use of generative AI\"",
+          "url": "https://lwn.net/Articles/1091231/"
         },
         {
           "source": "hn",
-          "title": "fx :Tiny, open, native coding agent.",
-          "url": "https://fx.sh"
+          "title": "MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training",
+          "url": "https://aiandeducation.mit.edu/report/"
         }
       ]
     },
     {
-      "topic": "Using (buzz keyword)",
+      "topic": "Memory (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'using' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'memory' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: INXM // local` OSS for using LLM as compiler and not as runtime",
-          "url": "https://github.com/inxm-ai/inxm-local"
+          "title": "Agent Memory as a File Format",
+          "url": "https://calpaterson.com/memoryfields.html"
         },
         {
           "source": "hn",
-          "title": "I reverse-engineering the closed GoodNotes format using LLMs",
-          "url": "https://github.com/Kaih1825/parser-for-goodnotes"
+          "title": "Agentic Context Management: Memory and Cost as Architecture Problems",
+          "url": "https://arxiv.org/abs/2607.21503"
         }
       ]
     }
