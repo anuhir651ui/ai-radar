@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-08-25",
-  "week_end": "2026-08-31",
-  "generated_at": "2026-08-31T14:56:39+00:00",
+  "week_start": "2026-09-01",
+  "week_end": "2026-09-07",
+  "generated_at": "2026-09-07T13:22:45+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: I made a Raspberry with Qwen my local car AI",
-          "url": "https://github.com/ThinkOffApp/CarWatch"
+          "title": "Google AI Mode shows same products 21.6% more expensive than traditional search",
+          "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products"
         },
         {
           "source": "hn",
-          "title": "Show HN: A lightweight, stateless database for agent memory",
-          "url": "https://polign.com/blog-edge-agent-memory"
+          "title": "Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos",
+          "url": "https://masteranza.github.io/weedout/"
         }
       ]
     },
@@ -33,13 +33,31 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Kuma Voice \u2013 OSS Apple Watch voice assistant, no iPhone needed",
-          "url": "https://github.com/itsperini/kuma-voice"
+          "title": "Witcher 3's DLC Won't Include Russian Voice Acting",
+          "url": "https://www.thegamer.com/the-witcher-3-songs-of-the-past-no-russian-dubbing/"
         },
         {
           "source": "hn",
-          "title": "Can a voice agent tell \"mmhm\" from an interruption?",
-          "url": "https://izmailov.dev/blog/smart-conversation"
+          "title": "Show HN: VocalClip \u2013 a Vocaroo-style voice link for job applications",
+          "url": "https://vocalclip.com/"
+        }
+      ]
+    },
+    {
+      "topic": "Coding (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'coding' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "OKF Agent Memory \u2013 Git-native persistent memory for AI coding agents",
+          "url": "https://github.com/okf-memory/okf-agent-memory"
+        },
+        {
+          "source": "hn",
+          "title": "Grep beats LSP? Why coding agents ignore your fancier tools",
+          "url": "https://www.agentconnect.md/blog/grep-beat-lsp-harness/"
         }
       ]
     },
@@ -51,49 +69,31 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Changes to Sourcehut's terms of service regarding LLMs",
-          "url": "https://sourcehut.org/blog/2026-08-27-tos-changes-and-llms/"
+          "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
+          "url": "https://mvakde.github.io/blog/44-on-arc-1/"
         },
         {
           "source": "hn",
-          "title": "LLMs are making me lose my savviness",
-          "url": "https://pgaleone.eu/ai/2026/08/29/losing-savviness/"
+          "title": "LLMs as a Cognitive Virus",
+          "url": "https://arxiv.org/abs/2609.03344"
         }
       ]
     },
     {
-      "topic": "Use (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'use' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "topic": "How (buzz keyword)",
+      "trend_score": 90,
+      "why_now": "Keyword 'how' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Debian votes to allow \"responsible use of generative AI\"",
-          "url": "https://lwn.net/Articles/1091231/"
+          "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+          "url": "https://danluu.com/zitron/"
         },
         {
           "source": "hn",
-          "title": "MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training",
-          "url": "https://aiandeducation.mit.edu/report/"
-        }
-      ]
-    },
-    {
-      "topic": "Memory (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'memory' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "Agent Memory as a File Format",
-          "url": "https://calpaterson.com/memoryfields.html"
-        },
-        {
-          "source": "hn",
-          "title": "Agentic Context Management: Memory and Cost as Architecture Problems",
-          "url": "https://arxiv.org/abs/2607.21503"
+          "title": "Google AI Mode shows same products 21.6% more expensive than traditional search",
+          "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products"
         }
       ]
     }
