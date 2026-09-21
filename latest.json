@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-09-08",
-  "week_end": "2026-09-14",
-  "generated_at": "2026-09-14T13:46:22+00:00",
+  "week_start": "2026-09-15",
+  "week_end": "2026-09-21",
+  "generated_at": "2026-09-21T13:46:25+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,49 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Hacker News, without AI",
-          "url": "https://hcker.news/?ai=exclude"
+          "title": "Show HN: Share your AI Setup, Learn from others",
+          "url": "https://mysetup.ai/"
         },
         {
           "source": "hn",
-          "title": "Show HN: Hacker News, Without AI",
-          "url": "https://www.unslop.news/"
-        }
-      ]
-    },
-    {
-      "topic": "Voice (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'voice' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "Show HN: Open-source simulation testing infra for voice agents",
-          "url": "https://github.com/egma-ai/egma"
-        },
-        {
-          "source": "hn",
-          "title": "Show HN: YazSes \u2013 offline hold-to-talk voice dictation for Linux, macOS, Windows",
-          "url": "https://github.com/MSKazemi/yazses"
-        }
-      ]
-    },
-    {
-      "topic": "Rag (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'rag' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "Rage4J: Test your LLM apps like the rest of your Java code",
-          "url": "https://rage4j.dev/"
-        },
-        {
-          "source": "hn",
-          "title": "Clean Web-to-Markdown: Fast HTML Extraction for LLMs and RAG",
-          "url": "https://markdown.usemy.cloud/"
+          "title": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models",
+          "url": "https://stale.jock.pl/"
         }
       ]
     },
@@ -69,31 +33,67 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "LLMs are real, AI is fake",
-          "url": "https://pluralistic.net/2026/09/12/god-in-the-box/"
+          "title": "Why I'm still bearish on LLMs after Navier-Stokes",
+          "url": "https://dank.systems/posts/2026-09-15-ai-bear.html"
         },
         {
           "source": "hn",
-          "title": "Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs",
-          "url": "https://github.com/ctrlb-hq/ctrlb-decompose"
+          "title": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"",
+          "url": "https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand/"
         }
       ]
     },
     {
-      "topic": "Why (buzz keyword)",
+      "topic": "Voice (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'why' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'voice' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Why are AI agents lying, cheating and coordinating?",
-          "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating"
+          "title": "Grok Voice Transcribe 2.0",
+          "url": "https://x.ai/news/grok-voice-transcribe-2"
         },
         {
           "source": "hn",
-          "title": "Why human syntax breaks LLMs (and how to fix agentic coding)",
-          "url": "https://news.ycombinator.com/item?id=49609821"
+          "title": "Show HN: AutoBot \u2013 live voice control for long-running AI work",
+          "url": "https://github.com/demeyer1/Autobot"
+        }
+      ]
+    },
+    {
+      "topic": "Rag (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'rag' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Jev is to tool use what RAG is to context",
+          "url": "https://rajveerbachkaniwala.com/blog/2026/09/19/jev-is-to-tool-use-what-rag-is-to-context/"
+        },
+        {
+          "source": "hn",
+          "title": "You need more than just vanilla RAG",
+          "url": "https://medium.com/@NikoZero11/your-rag-pipeline-doesnt-need-more-retrieval-it-needs-better-decisions-c26ad59254b3"
+        }
+      ]
+    },
+    {
+      "topic": "Can (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'can' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
+          "url": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions"
+        },
+        {
+          "source": "hn",
+          "title": "Can you tell which images are AI-generated?",
+          "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai/"
         }
       ]
     }
