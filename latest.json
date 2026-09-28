@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-09-15",
-  "week_end": "2026-09-21",
-  "generated_at": "2026-09-21T13:46:25+00:00",
+  "week_start": "2026-09-22",
+  "week_end": "2026-09-28",
+  "generated_at": "2026-09-28T15:08:41+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,31 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Share your AI Setup, Learn from others",
-          "url": "https://mysetup.ai/"
+          "title": "Classified estimates show the NSA is paying billions to test AI models",
+          "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models"
         },
         {
           "source": "hn",
-          "title": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models",
-          "url": "https://stale.jock.pl/"
-        }
-      ]
-    },
-    {
-      "topic": "Llms (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'llms' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "Why I'm still bearish on LLMs after Navier-Stokes",
-          "url": "https://dank.systems/posts/2026-09-15-ai-bear.html"
-        },
-        {
-          "source": "hn",
-          "title": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"",
-          "url": "https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand/"
+          "title": "Show HN: TinyAIArena watch AI agents battle it out",
+          "url": "https://tinyaiarena.com/"
         }
       ]
     },
@@ -51,13 +33,31 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Grok Voice Transcribe 2.0",
-          "url": "https://x.ai/news/grok-voice-transcribe-2"
+          "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+          "url": "https://arxiv.org/abs/2609.25021"
         },
         {
           "source": "hn",
-          "title": "Show HN: AutoBot \u2013 live voice control for long-running AI work",
-          "url": "https://github.com/demeyer1/Autobot"
+          "title": "Ask HN: Hypothesis: Cellular providers are deprioritizing voice calls?",
+          "url": "https://news.ycombinator.com/item?id=49833212"
+        }
+      ]
+    },
+    {
+      "topic": "Llms (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'llms' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "How to keep enjoying programming in a world of LLMs",
+          "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705"
+        },
+        {
+          "source": "hn",
+          "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+          "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical"
         }
       ]
     },
@@ -69,31 +69,31 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Jev is to tool use what RAG is to context",
-          "url": "https://rajveerbachkaniwala.com/blog/2026/09/19/jev-is-to-tool-use-what-rag-is-to-context/"
+          "title": "Launch HN: Coverage Cat (YC S22) \u2013 Umbrella insurance via your personal agent",
+          "url": "https://www.coveragecat.com/"
         },
         {
           "source": "hn",
-          "title": "You need more than just vanilla RAG",
-          "url": "https://medium.com/@NikoZero11/your-rag-pipeline-doesnt-need-more-retrieval-it-needs-better-decisions-c26ad59254b3"
+          "title": "Show HN: AI\u00b7rete\u00b7RAG \u2013 a Rete rule engine decides, RAG explains why",
+          "url": "https://ai-rete-rag.com/"
         }
       ]
     },
     {
-      "topic": "Can (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'can' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "topic": "Video (buzz keyword)",
+      "trend_score": 90,
+      "why_now": "Keyword 'video' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
-          "url": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions"
+          "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+          "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/"
         },
         {
           "source": "hn",
-          "title": "Can you tell which images are AI-generated?",
-          "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai/"
+          "title": "Robin Williams' Daughter to Fans Creating AI Videos: 'Have Some Shame'",
+          "url": "https://variety.com/2026/film/news/robin-williams-daughter-ai-videos-1236871568/"
         }
       ]
     }
