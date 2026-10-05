@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-09-22",
-  "week_end": "2026-09-28",
-  "generated_at": "2026-09-28T15:08:41+00:00",
+  "week_start": "2026-09-29",
+  "week_end": "2026-10-05",
+  "generated_at": "2026-10-05T15:42:39+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Classified estimates show the NSA is paying billions to test AI models",
-          "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models"
+          "title": "Show HN: AI search for every photo and every frame of video on macOS",
+          "url": "https://github.com/allenv0/SCM"
         },
         {
           "source": "hn",
-          "title": "Show HN: TinyAIArena watch AI agents battle it out",
-          "url": "https://tinyaiarena.com/"
+          "title": "Show HN: Made an open-source Lego AI generator",
+          "url": "https://github.com/anteloc/ldraw-nova"
         }
       ]
     },
@@ -33,13 +33,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
-          "url": "https://arxiv.org/abs/2609.25021"
+          "title": "The STT-LLM-TTS voice stack is dead",
+          "url": "https://www.skeptrune.com/posts/stt-llm-tts-voice-stack-is-dead/"
         },
         {
           "source": "hn",
-          "title": "Ask HN: Hypothesis: Cellular providers are deprioritizing voice calls?",
-          "url": "https://news.ycombinator.com/item?id=49833212"
+          "title": "Anthropic asks Claude users to share voice data for AI model training",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/"
         }
       ]
     },
@@ -51,13 +51,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "How to keep enjoying programming in a world of LLMs",
-          "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705"
+          "title": "Don't be fooled\u2013LLMs don't reason",
+          "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/"
         },
         {
           "source": "hn",
-          "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
-          "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical"
+          "title": "\"Torturing\" LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI Yet",
+          "url": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/"
         }
       ]
     },
@@ -69,31 +69,31 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Launch HN: Coverage Cat (YC S22) \u2013 Umbrella insurance via your personal agent",
-          "url": "https://www.coveragecat.com/"
+          "title": "Building a RAG pipeline for semantic code search",
+          "url": "https://blog.jetbrains.com/ai/2026/09/building-a-rag-pipeline-for-semantic-code-search-a-developer-diary-and-field-notes/"
         },
         {
           "source": "hn",
-          "title": "Show HN: AI\u00b7rete\u00b7RAG \u2013 a Rete rule engine decides, RAG explains why",
-          "url": "https://ai-rete-rag.com/"
+          "title": "Show HN: Vectorless, Reasoning-Based RAG",
+          "url": "https://github.com/VectifyAI/PageIndex"
         }
       ]
     },
     {
-      "topic": "Video (buzz keyword)",
-      "trend_score": 90,
-      "why_now": "Keyword 'video' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "topic": "Coding (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'coding' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
-          "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/"
+          "title": "Show HN: Open-source model routing for coding agents at Astra-level performance",
+          "url": "https://news.ycombinator.com/item?id=49911500"
         },
         {
           "source": "hn",
-          "title": "Robin Williams' Daughter to Fans Creating AI Videos: 'Have Some Shame'",
-          "url": "https://variety.com/2026/film/news/robin-williams-daughter-ai-videos-1236871568/"
+          "title": "Show HN: Pi pod \u2013 Run your pi coding agent in sandboxes on your own server",
+          "url": "https://pipod.dev/"
         }
       ]
     }
