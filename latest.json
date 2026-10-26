@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-10-13",
-  "week_end": "2026-10-19",
-  "generated_at": "2026-10-19T14:27:54+00:00",
+  "week_start": "2026-10-20",
+  "week_end": "2026-10-26",
+  "generated_at": "2026-10-26T14:01:44+00:00",
   "sources": [
     "hn",
     "github"
@@ -15,13 +15,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Sphinx \u2013 A hook that quizzes you on your AI's code before shipping",
-          "url": "https://sphinx-six-theta.vercel.app/"
+          "title": "Show HN: UI micro interactions prompts for AI",
+          "url": "https://www.typeui.sh/micro-interactions"
         },
         {
           "source": "hn",
-          "title": "TV4 postpones show after AI agent erases edited material",
-          "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage"
+          "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+          "url": "https://corgi.computer/"
         }
       ]
     },
@@ -33,31 +33,13 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Sanity's Edge \u2013 A voice BBS from 1994",
-          "url": "https://sanitys-edge.shouden.us"
+          "title": "Show HN: Narro \u2013 Read web pages and Kindle books using local AI voices",
+          "url": "https://github.com/swrdfish/narro"
         },
         {
           "source": "hn",
-          "title": "RIAA Flags Anna's Archive and AI Voice Cloner to U.S. Government",
-          "url": "https://torrentfreak.com/riaa-flags-annas-archive-and-ai-voice-cloner-to-u-s-government/"
-        }
-      ]
-    },
-    {
-      "topic": "How (buzz keyword)",
-      "trend_score": 95,
-      "why_now": "Keyword 'how' appears frequently across Hacker News and recently updated GitHub projects this week.",
-      "implications": [],
-      "evidence": [
-        {
-          "source": "hn",
-          "title": "Show HN: Sphinx \u2013 A hook that quizzes you on your AI's code before shipping",
-          "url": "https://sphinx-six-theta.vercel.app/"
-        },
-        {
-          "source": "hn",
-          "title": "How to engineer an AI harness for game development",
-          "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code"
+          "title": "Anyone migrate off Google Voice?",
+          "url": "https://news.ycombinator.com/item?id=50160157"
         }
       ]
     },
@@ -69,31 +51,49 @@
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Llmspeed \u2013 feel how fast a local LLM runs before you buy the hardware",
-          "url": "https://llmspeed.dev/"
+          "title": "A free agentic app builder where LLMs only write what deterministic tools can't",
+          "url": "https://editor.besser-pearl.org/"
         },
         {
           "source": "hn",
-          "title": "I built a programming language that LLMs can't use",
-          "url": "https://blog.picheta.me/post/killswitch-lang/"
+          "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+          "url": "https://lynchlab.net/llm-skin-cancer"
         }
       ]
     },
     {
-      "topic": "Coding (buzz keyword)",
+      "topic": "Rag (buzz keyword)",
       "trend_score": 95,
-      "why_now": "Keyword 'coding' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "why_now": "Keyword 'rag' appears frequently across Hacker News and recently updated GitHub projects this week.",
       "implications": [],
       "evidence": [
         {
           "source": "hn",
-          "title": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents",
-          "url": "https://github.com/graphicle-ai/graphicle"
+          "title": "Show HN: CaseCite \u2013 Free RAG caselaw research and document analysis for lawyers",
+          "url": "https://github.com/thomasunise/casecite"
         },
         {
           "source": "hn",
-          "title": "Aidlc: Adaptive workflow steering rules for AI coding agents",
-          "url": "https://github.com/awslabs/aidlc-workflows"
+          "title": "Bird Flu Raging on US Mink Farm Could Spark Human Pandemic. Officials Won't Act",
+          "url": "https://www.propublica.org/article/bird-flu-mink-farm-utah-human-risk"
+        }
+      ]
+    },
+    {
+      "topic": "Open Source (buzz keyword)",
+      "trend_score": 95,
+      "why_now": "Keyword 'open-source' appears frequently across Hacker News and recently updated GitHub projects this week.",
+      "implications": [],
+      "evidence": [
+        {
+          "source": "hn",
+          "title": "Show HN: Omnara \u2013 Open-source alternative to Claude Managed Agents",
+          "url": "https://github.com/omnara-ai/omnara"
+        },
+        {
+          "source": "hn",
+          "title": "Argus \u2013 a free, open-source agentic security operations platform \u2013 MIT",
+          "url": "https://thomasunise.com/argus"
         }
       ]
     }
